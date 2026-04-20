@@ -1,0 +1,1775 @@
+Date: 25/4/2025
+Time: 10:1
+Phone Number: +917675009869
+Message: Hello! This is an automated message sent using Python.
+--------------------
+Date: 25/4/2025
+Time: 10:3
+Phone Number: +919959385754
+Message: Hello! This is an automated message sent using Python.
+--------------------
+Date: 25/4/2025
+Time: 10:4
+Phone Number: +919398036727
+Message: Hello! This is an automated message sent using Python.
+--------------------
+Date: 25/4/2025
+Time: 10:5
+Phone Number: +916303939734
+Message: Hello! This is an automated message sent using Python.
+--------------------
+Date: 25/4/2025
+Time: 10:6
+Phone Number: +919866406930
+Message: Hello! This is an automated message sent using Python.
+--------------------
+Date: 25/4/2025
+Time: 10:8
+Phone Number: +917675009869
+Message: Hello! This is an automated message sent using Python.
+--------------------
+Date: 25/4/2025
+Time: 10:10
+Phone Number: +919959385754
+Message: Hello! This is an automated message sent using Python.
+--------------------
+Date: 25/4/2025
+Time: 10:11
+Phone Number: +919398036727
+Message: Hello! This is an automated message sent using Python.
+--------------------
+Date: 25/4/2025
+Time: 10:12
+Phone Number: +916303939734
+Message: Hello! This is an automated message sent using Python.
+--------------------
+Date: 25/4/2025
+Time: 10:13
+Phone Number: +919866406930
+Message: Hello! This is an automated message sent using Python.
+--------------------
+Date: 25/4/2025
+Time: 10:16
+Phone Number: +917675009869
+Message: Hello! This is an automated message sent using Python.
+--------------------
+Date: 25/4/2025
+Time: 10:21
+Phone Number: +917675009869
+Message: Hello! This is an automated message sent using Python.
+--------------------
+Date: 25/4/2025
+Time: 10:22
+Phone Number: +919959385754
+Message: Hello! This is an automated message sent using Python.
+--------------------
+Date: 25/4/2025
+Time: 10:23
+Phone Number: +919398036727
+Message: Hello! This is an automated message sent using Python.
+--------------------
+Date: 25/4/2025
+Time: 10:24
+Phone Number: +916303939734
+Message: Hello! This is an automated message sent using Python.
+--------------------
+Date: 25/4/2025
+Time: 10:25
+Phone Number: +919866406930
+Message: Hello! This is an automated message sent using Python.
+--------------------
+Date: 25/4/2025
+Time: 15:3
+Phone Number: +917675009869
+Message: Hello! This is an automated message sent using Python.
+--------------------
+Date: 25/4/2025
+Time: 15:5
+Phone Number: +917675009869
+Message: Hello! This is an automated message sent using Python.
+--------------------
+Date: 25/4/2025
+Time: 15:6
+Phone Number: +919959385754
+Message: Hello! This is an automated message sent using Python.
+--------------------
+Date: 25/4/2025
+Time: 15:6
+Phone Number: +919398036727
+Message: Hello! This is an automated message sent using Python.
+--------------------
+Date: 25/4/2025
+Time: 15:6
+Phone Number: +916303939734
+Message: Hello! This is an automated message sent using Python.
+--------------------
+Date: 25/4/2025
+Time: 15:7
+Phone Number: +919866406930
+Message: Hello! This is an automated message sent using Python.
+--------------------
+Date: 25/4/2025
+Time: 16:31
+Phone Number: +917675009869
+Message: Hello! This is an automated message sent using Python.
+--------------------
+Date: 25/4/2025
+Time: 16:31
+Phone Number: +919959385754
+Message: Hello! This is an automated message sent using Python.
+--------------------
+Date: 25/4/2025
+Time: 16:31
+Phone Number: +919398036727
+Message: Hello! This is an automated message sent using Python.
+--------------------
+Date: 25/4/2025
+Time: 16:35
+Phone Number: +917675009869
+Message: Hello from background Python!
+--------------------
+Date: 25/4/2025
+Time: 16:35
+Phone Number: +919959385754
+Message: Hello from background Python!
+--------------------
+Date: 25/4/2025
+Time: 16:39
+Phone Number: +917675009869
+Message: Hello! This is an automated message sent using Python.
+--------------------
+Date: 25/4/2025
+Time: 16:40
+Phone Number: +919959385754
+Message: Hello! This is an automated message sent using Python.
+--------------------
+Date: 25/4/2025
+Time: 16:42
+Phone Number: +917675009869
+Message: Hello! This is an automated message sent using Python.
+--------------------
+Date: 25/4/2025
+Time: 16:42
+Phone Number: +919959385754
+Message: Hello! This is an automated message sent using Python.
+--------------------
+Date: 25/4/2025
+Time: 16:42
+Phone Number: +919398036727
+Message: Hello! This is an automated message sent using Python.
+--------------------
+Date: 25/4/2025
+Time: 16:43
+Phone Number: +916303939734
+Message: Hello! This is an automated message sent using Python.
+--------------------
+Date: 25/4/2025
+Time: 16:45
+Phone Number: +917675009869
+Message: Hello! This is an automated message sent using Python.
+--------------------
+Date: 25/4/2025
+Time: 16:45
+Phone Number: +919959385754
+Message: Hello! This is an automated message sent using Python.
+--------------------
+Date: 25/4/2025
+Time: 16:45
+Phone Number: +919398036727
+Message: Hello! This is an automated message sent using Python.
+--------------------
+Date: 25/4/2025
+Time: 16:46
+Phone Number: +916303939734
+Message: Hello! This is an automated message sent using Python.
+--------------------
+Date: 25/4/2025
+Time: 16:46
+Phone Number: +919866406930
+Message: Hello! This is an automated message sent using Python.
+--------------------
+Date: 25/4/2025
+Time: 16:46
+Phone Number: +917675009869
+Message: Hello! This is an automated message sent using Python.
+--------------------
+Date: 25/4/2025
+Time: 16:47
+Phone Number: +919959385754
+Message: Hello! This is an automated message sent using Python.
+--------------------
+Date: 25/4/2025
+Time: 16:47
+Phone Number: +919398036727
+Message: Hello! This is an automated message sent using Python.
+--------------------
+Date: 25/4/2025
+Time: 16:47
+Phone Number: +916303939734
+Message: Hello! This is an automated message sent using Python.
+--------------------
+Date: 25/4/2025
+Time: 16:48
+Phone Number: +919866406930
+Message: Hello! This is an automated message sent using Python.
+--------------------
+Date: 25/4/2025
+Time: 17:14
+Phone Number: +917675009869
+Message: Hello! This is an automated message sent using Python.
+--------------------
+Date: 25/4/2025
+Time: 17:14
+Phone Number: +919959385754
+Message: Hello! This is an automated message sent using Python.
+--------------------
+Date: 25/4/2025
+Time: 17:14
+Phone Number: +919398653069
+Message: Hello! This is an automated message sent using Python.
+--------------------
+Date: 25/4/2025
+Time: 17:15
+Phone Number: +916303939734
+Message: Hello! This is an automated message sent using Python.
+--------------------
+Date: 25/4/2025
+Time: 17:15
+Phone Number: +919866406930
+Message: Hello! This is an automated message sent using Python.
+--------------------
+Date: 27/4/2025
+Time: 12:49
+Phone Number: +917675009869
+Message: Hello! This is an automated message sent using Python.
+--------------------
+Date: 27/4/2025
+Time: 12:49
+Phone Number: +919959385754
+Message: Hello! This is an automated message sent using Python.
+--------------------
+Date: 27/4/2025
+Time: 12:50
+Phone Number: +918121994235
+Message: Hello! This is an automated message sent using Python.
+--------------------
+Date: 27/4/2025
+Time: 12:50
+Phone Number: +916303939734
+Message: Hello! This is an automated message sent using Python.
+--------------------
+Date: 27/4/2025
+Time: 12:50
+Phone Number: +919866406930
+Message: Hello! This is an automated message sent using Python.
+--------------------
+Date: 27/4/2025
+Time: 12:51
+Phone Number: +917675009869
+Message: Hello! This is an automated message sent using Python.
+--------------------
+Date: 27/4/2025
+Time: 12:53
+Phone Number: +917675009869
+Message: Hello! This is an automated message sent using Python.
+--------------------
+Date: 27/4/2025
+Time: 12:53
+Phone Number: +919959385754
+Message: Hello! This is an automated message sent using Python.
+--------------------
+Date: 27/4/2025
+Time: 12:54
+Phone Number: +918121994235
+Message: Hello! This is an automated message sent using Python.
+--------------------
+Date: 27/4/2025
+Time: 12:55
+Phone Number: +917675009869
+Message: Hello! This is an automated message sent using Python.
+--------------------
+Date: 27/4/2025
+Time: 12:55
+Phone Number: +919959385754
+Message: Hello! This is an automated message sent using Python.
+--------------------
+Date: 27/4/2025
+Time: 12:55
+Phone Number: +918121994235
+Message: Hello! This is an automated message sent using Python.
+--------------------
+Date: 27/4/2025
+Time: 12:56
+Phone Number: +916303939734
+Message: Hello! This is an automated message sent using Python.
+--------------------
+Date: 27/4/2025
+Time: 12:56
+Phone Number: +917675009869
+Message: Hello! This is an automated message sent using Python.
+--------------------
+Date: 27/4/2025
+Time: 12:57
+Phone Number: +919959385754
+Message: Hello! This is an automated message sent using Python.
+--------------------
+Date: 27/4/2025
+Time: 12:57
+Phone Number: +917675009869
+Message: Hello! This is an automated message sent using Python.
+--------------------
+Date: 27/4/2025
+Time: 12:58
+Phone Number: +917675009869
+Message: Hello! This is an automated message sent using Python.
+--------------------
+Date: 27/4/2025
+Time: 12:58
+Phone Number: +919959385754
+Message: Hello! This is an automated message sent using Python.
+--------------------
+Date: 27/4/2025
+Time: 12:58
+Phone Number: +918121994235
+Message: Hello! This is an automated message sent using Python.
+--------------------
+Date: 27/4/2025
+Time: 12:59
+Phone Number: +916303939734
+Message: Hello! This is an automated message sent using Python.
+--------------------
+Date: 27/4/2025
+Time: 12:59
+Phone Number: +919866406930
+Message: Hello! This is an automated message sent using Python.
+--------------------
+Date: 27/4/2025
+Time: 13:0
+Phone Number: +917675009869
+Message: Hello! This is an automated message sent using Python.
+--------------------
+Date: 27/4/2025
+Time: 13:0
+Phone Number: +919959385754
+Message: Hello! This is an automated message sent using Python.
+--------------------
+Date: 27/4/2025
+Time: 13:1
+Phone Number: +918121994235
+Message: Hello! This is an automated message sent using Python.
+--------------------
+Date: 27/4/2025
+Time: 13:1
+Phone Number: +916303939734
+Message: Hello! This is an automated message sent using Python.
+--------------------
+Date: 27/4/2025
+Time: 13:1
+Phone Number: +919866406930
+Message: Hello! This is an automated message sent using Python.
+--------------------
+Date: 27/4/2025
+Time: 13:34
+Phone Number: +917675009869
+Message: Hello! This is an automated message sent using Python.
+--------------------
+Date: 27/4/2025
+Time: 13:34
+Phone Number: +919959385754
+Message: Hello! This is an automated message sent using Python.
+--------------------
+Date: 27/4/2025
+Time: 13:34
+Phone Number: +918121994235
+Message: Hello! This is an automated message sent using Python.
+--------------------
+Date: 27/4/2025
+Time: 13:34
+Phone Number: +916303939734
+Message: Hello! This is an automated message sent using Python.
+--------------------
+Date: 27/4/2025
+Time: 13:35
+Phone Number: +919866406930
+Message: Hello! This is an automated message sent using Python.
+--------------------
+Date: 27/4/2025
+Time: 13:36
+Phone Number: +917675009869
+Message: Hello! This is an automated message sent using Python.
+--------------------
+Date: 27/4/2025
+Time: 13:36
+Phone Number: +919959385754
+Message: Hello! This is an automated message sent using Python.
+--------------------
+Date: 27/4/2025
+Time: 13:37
+Phone Number: +918121994235
+Message: Hello! This is an automated message sent using Python.
+--------------------
+Date: 27/4/2025
+Time: 13:44
+Phone Number: +917675009869
+Message: Hello! This is an automated message sent using Python.
+--------------------
+Date: 27/4/2025
+Time: 13:44
+Phone Number: +919959385754
+Message: Hello! This is an automated message sent using Python.
+--------------------
+Date: 27/4/2025
+Time: 13:45
+Phone Number: +918121994235
+Message: Hello! This is an automated message sent using Python.
+--------------------
+Date: 27/4/2025
+Time: 13:45
+Phone Number: +916303939734
+Message: Hello! This is an automated message sent using Python.
+--------------------
+Date: 27/4/2025
+Time: 13:45
+Phone Number: +919866406930
+Message: Hello! This is an automated message sent using Python.
+--------------------
+Date: 27/4/2025
+Time: 13:47
+Phone Number: +917675009869
+Message: Hello! This is an automated message sent using Python.
+--------------------
+Date: 27/4/2025
+Time: 13:47
+Phone Number: +919959385754
+Message: Hello! This is an automated message sent using Python.
+--------------------
+Date: 27/4/2025
+Time: 13:48
+Phone Number: +917675009869
+Message: Hello! This is an automated message sent using Python.
+--------------------
+Date: 27/4/2025
+Time: 13:49
+Phone Number: +919959385754
+Message: Hello! This is an automated message sent using Python.
+--------------------
+Date: 27/4/2025
+Time: 13:49
+Phone Number: +918121994235
+Message: Hello! This is an automated message sent using Python.
+--------------------
+Date: 27/4/2025
+Time: 13:49
+Phone Number: +917675009869
+Message: Hello! This is an automated message sent using Python.
+--------------------
+Date: 27/4/2025
+Time: 13:50
+Phone Number: +919959385754
+Message: Hello! This is an automated message sent using Python.
+--------------------
+Date: 27/4/2025
+Time: 13:50
+Phone Number: +918121994235
+Message: Hello! This is an automated message sent using Python.
+--------------------
+Date: 27/4/2025
+Time: 13:50
+Phone Number: +916303939734
+Message: Hello! This is an automated message sent using Python.
+--------------------
+Date: 27/4/2025
+Time: 13:50
+Phone Number: +919866406930
+Message: Hello! This is an automated message sent using Python.
+--------------------
+Date: 27/4/2025
+Time: 15:23
+Phone Number: +917675009869
+Message: Hello! This is an automated message sent using Python.
+--------------------
+Date: 27/4/2025
+Time: 15:23
+Phone Number: +919959385754
+Message: Hello! This is an automated message sent using Python.
+--------------------
+Date: 27/4/2025
+Time: 15:23
+Phone Number: +918121994235
+Message: Hello! This is an automated message sent using Python.
+--------------------
+Date: 27/4/2025
+Time: 15:23
+Phone Number: +916303939734
+Message: Hello! This is an automated message sent using Python.
+--------------------
+Date: 27/4/2025
+Time: 15:26
+Phone Number: +917675009869
+Message: Hello! This is an automated message sent using Python.
+--------------------
+Date: 27/4/2025
+Time: 15:26
+Phone Number: +919959385754
+Message: Hello! This is an automated message sent using Python.
+--------------------
+Date: 27/4/2025
+Time: 15:27
+Phone Number: +918121994235
+Message: Hello! This is an automated message sent using Python.
+--------------------
+Date: 27/4/2025
+Time: 15:27
+Phone Number: +916303939734
+Message: Hello! This is an automated message sent using Python.
+--------------------
+Date: 27/4/2025
+Time: 15:27
+Phone Number: +919866406930
+Message: Hello! This is an automated message sent using Python.
+--------------------
+Date: 27/4/2025
+Time: 15:33
+Phone Number: +917675009869
+Message: Hello! This is an automated message sent using Python.
+--------------------
+Date: 27/4/2025
+Time: 15:33
+Phone Number: +919959385754
+Message: Hello! This is an automated message sent using Python.
+--------------------
+Date: 27/4/2025
+Time: 15:33
+Phone Number: +918121994235
+Message: Hello! This is an automated message sent using Python.
+--------------------
+Date: 27/4/2025
+Time: 15:34
+Phone Number: +916303939734
+Message: Hello! This is an automated message sent using Python.
+--------------------
+Date: 27/4/2025
+Time: 15:34
+Phone Number: +919866406930
+Message: Hello! This is an automated message sent using Python.
+--------------------
+Date: 27/4/2025
+Time: 15:38
+Phone Number: +917675009869
+Message: Hello! This is an automated message sent using Python.
+--------------------
+Date: 27/4/2025
+Time: 15:39
+Phone Number: +919959385754
+Message: Hello! This is an automated message sent using Python.
+--------------------
+Date: 27/4/2025
+Time: 15:39
+Phone Number: +918121994235
+Message: Hello! This is an automated message sent using Python.
+--------------------
+Date: 27/4/2025
+Time: 15:39
+Phone Number: +919581347432
+Message: Hello! This is an automated message sent using Python.
+--------------------
+Date: 27/4/2025
+Time: 15:40
+Phone Number: +918121994235
+Message: Hello! This is an automated message sent using Python.
+--------------------
+Date: 27/4/2025
+Time: 15:40
+Phone Number: +919866406930
+Message: Hello! This is an automated message sent using Python.
+--------------------
+Date: 27/4/2025
+Time: 15:44
+Phone Number: +917675009869
+Message: Hello! This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. This is an automated message, please do not reply.
+--------------------
+Date: 27/4/2025
+Time: 15:44
+Phone Number: +919959385754
+Message: Hello! This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. This is an automated message, please do not reply.
+--------------------
+Date: 27/4/2025
+Time: 15:45
+Phone Number: +918121994235
+Message: Hello! This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. This is an automated message, please do not reply.
+--------------------
+Date: 27/4/2025
+Time: 15:45
+Phone Number: +919581347432
+Message: Hello! This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. This is an automated message, please do not reply.
+--------------------
+Date: 27/4/2025
+Time: 15:45
+Phone Number: +918121994235
+Message: Hello! This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. This is an automated message, please do not reply.
+--------------------
+Date: 27/4/2025
+Time: 15:46
+Phone Number: +919866406930
+Message: Hello! This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. This is an automated message, please do not reply.
+--------------------
+Date: 27/4/2025
+Time: 15:51
+Phone Number: +917675009869
+Message: Hello! This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. This is an automated message, please do not reply.
+--------------------
+Date: 27/4/2025
+Time: 15:52
+Phone Number: +919959385754
+Message: Hello! This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. This is an automated message, please do not reply.
+--------------------
+Date: 27/4/2025
+Time: 15:52
+Phone Number: +918121994235
+Message: Hello! This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. This is an automated message, please do not reply.
+--------------------
+Date: 27/4/2025
+Time: 15:52
+Phone Number: +919581347432
+Message: Hello! This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. This is an automated message, please do not reply.
+--------------------
+Date: 27/4/2025
+Time: 15:53
+Phone Number: +918121994235
+Message: Hello! This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. This is an automated message, please do not reply.
+--------------------
+Date: 27/4/2025
+Time: 15:53
+Phone Number: +919866406930
+Message: Hello! This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. This is an automated message, please do not reply.
+--------------------
+Date: 27/4/2025
+Time: 15:55
+Phone Number: +917675009869
+Message: Hello! This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. This is an automated message, please do not reply.
+--------------------
+Date: 27/4/2025
+Time: 15:55
+Phone Number: +919959385754
+Message: Hello! This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. This is an automated message, please do not reply.
+--------------------
+Date: 27/4/2025
+Time: 15:56
+Phone Number: +918121994235
+Message: Hello! This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. This is an automated message, please do not reply.
+--------------------
+Date: 27/4/2025
+Time: 15:56
+Phone Number: +919581347432
+Message: Hello! This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. This is an automated message, please do not reply.
+--------------------
+Date: 27/4/2025
+Time: 15:57
+Phone Number: +918121994235
+Message: Hello! This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. This is an automated message, please do not reply.
+--------------------
+Date: 27/4/2025
+Time: 15:57
+Phone Number: +919866406930
+Message: Hello! This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. This is an automated message, please do not reply.
+--------------------
+Date: 27/4/2025
+Time: 15:59
+Phone Number: +917675009869
+Message: Hello! This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. This is an automated message, please do not reply.
+--------------------
+Date: 27/4/2025
+Time: 16:0
+Phone Number: +919959385754
+Message: Hello! This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. This is an automated message, please do not reply.
+--------------------
+Date: 27/4/2025
+Time: 16:0
+Phone Number: +918247673952
+Message: Hello! This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. This is an automated message, please do not reply.
+--------------------
+Date: 27/4/2025
+Time: 16:1
+Phone Number: +919581347432
+Message: Hello! This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. This is an automated message, please do not reply.
+--------------------
+Date: 27/4/2025
+Time: 16:1
+Phone Number: +918121994235
+Message: Hello! This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. This is an automated message, please do not reply.
+--------------------
+Date: 27/4/2025
+Time: 16:1
+Phone Number: +919866406930
+Message: Hello! This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. This is an automated message, please do not reply.
+--------------------
+Date: 27/4/2025
+Time: 18:20
+Phone Number: +8247673952
+Message: Hello! This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. This is an automated message, please do not reply.
+--------------------
+Date: 27/4/2025
+Time: 18:20
+Phone Number: +8247673952
+Message: Hello! This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. This is an automated message, please do not reply.
+--------------------
+Date: 27/4/2025
+Time: 18:37
+Phone Number: +9959385754
+Message: Hello! This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. This is an automated message, please do not reply.
+--------------------
+Date: 27/4/2025
+Time: 18:38
+Phone Number: +8247673952
+Message: Hello! This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. This is an automated message, please do not reply.
+--------------------
+Date: 27/4/2025
+Time: 18:49
+Phone Number: +9959385754
+Message: Hello! This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid 24500.0 and your due balance is 5000.0. Please make the payment soon. This is an automated message, please do not reply.
+--------------------
+Date: 27/4/2025
+Time: 18:49
+Phone Number: +8247673952
+Message: Hello! This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid 24500.0 and your due balance is 500.0. Please make the payment soon. This is an automated message, please do not reply.
+--------------------
+Date: 27/4/2025
+Time: 18:52
+Phone Number: +9959385754
+Message: Hello! This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid 24500.0 and your due balance is 5000.0. Please make the payment soon. This is an automated message, please do not reply.
+--------------------
+Date: 27/4/2025
+Time: 18:52
+Phone Number: +9959385754
+Message: Hello! This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid 24500.0 and your due balance is 5000.0. Please make the payment soon. This is an automated message, please do not reply.
+--------------------
+Date: 27/4/2025
+Time: 18:53
+Phone Number: +8247673952
+Message: Hello! This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid 24500.0 and your due balance is 500.0. Please make the payment soon. This is an automated message, please do not reply.
+--------------------
+Date: 27/4/2025
+Time: 18:53
+Phone Number: +8247673952
+Message: Hello! This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid 24500.0 and your due balance is 500.0. Please make the payment soon. This is an automated message, please do not reply.
+--------------------
+Date: 27/4/2025
+Time: 18:53
+Phone Number: +9959385754
+Message: Hello! This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid 24500.0 and your due balance is 5000.0. Please make the payment soon. This is an automated message, please do not reply.
+--------------------
+Date: 27/4/2025
+Time: 18:53
+Phone Number: +9959385754
+Message: Hello! This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid 24500.0 and your due balance is 5000.0. Please make the payment soon. This is an automated message, please do not reply.
+--------------------
+Date: 27/4/2025
+Time: 18:53
+Phone Number: +9959385754
+Message: Hello! This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid 24500.0 and your due balance is 5000.0. Please make the payment soon. This is an automated message, please do not reply.
+--------------------
+Date: 27/4/2025
+Time: 18:55
+Phone Number: +9959385754
+Message: Hello! This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid 24500.0 and your due balance is 5000.0. Please make the payment soon. This is an automated message, please do not reply.
+--------------------
+Date: 27/4/2025
+Time: 18:55
+Phone Number: +8247673952
+Message: Hello! This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid 24500.0 and your due balance is 500.0. Please make the payment soon. This is an automated message, please do not reply.
+--------------------
+Date: 27/4/2025
+Time: 19:1
+Phone Number: +9959385754
+Message: Hello! This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid 20000.0 and your due balance is 5000.0. Please make the payment soon. This is an automated message, please do not reply.
+--------------------
+Date: 27/4/2025
+Time: 19:1
+Phone Number: +8247673952
+Message: Hello! This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid 24500.0 and your due balance is 500.0. Please make the payment soon. This is an automated message, please do not reply.
+--------------------
+Date: 27/4/2025
+Time: 19:5
+Phone Number: +7675009869
+Message: Hello! This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid 12000.0 and your due balance is 13000.0. Please make the payment soon. This is an automated message, please do not reply.
+--------------------
+Date: 27/4/2025
+Time: 19:5
+Phone Number: +9959385754
+Message: Hello! This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid 15000.0 and your due balance is 10000.0. Please make the payment soon. This is an automated message, please do not reply.
+--------------------
+Date: 27/4/2025
+Time: 19:14
+Phone Number: +9959385754
+Message: Hello! Dear pilla devi tanuja This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid 20000.0 and your due balance is 5000.0. Please make the payment soon. This is an automated message, please do not reply.
+--------------------
+Date: 27/4/2025
+Time: 19:14
+Phone Number: +8247673952
+Message: Hello! Dear pilla devi tanuja This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid 24500.0 and your due balance is 500.0. Please make the payment soon. This is an automated message, please do not reply.
+--------------------
+Date: 27/4/2025
+Time: 19:19
+Phone Number: +9959385754
+Message: Hello! Dear ganesh This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid 20000.0 and your due balance is 5000.0. Please make the payment soon. This is an automated message, please do not reply.
+--------------------
+Date: 27/4/2025
+Time: 19:19
+Phone Number: +8247673952
+Message: Hello! Dear pilla devi tanuja This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid 24500.0 and your due balance is 500.0. Please make the payment soon. This is an automated message, please do not reply.
+--------------------
+Date: 27/4/2025
+Time: 19:24
+Phone Number: +9959385754
+Message: Hello! Dear ganesh This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid 20000.0 of Sem 3 Fee and your due balance is 5000.0. Please make the payment soon. This is an automated message, please do not reply.
+--------------------
+Date: 27/4/2025
+Time: 19:24
+Phone Number: +8247673952
+Message: Hello! Dear pilla devi tanuja This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid 24500.0 of Sem 3 Fee and your due balance is 500.0. Please make the payment soon. This is an automated message, please do not reply.
+--------------------
+Date: 27/4/2025
+Time: 19:28
+Phone Number: +9959385754
+Message: Hello! Dear ganesh This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid 20000.0 of 3 and your due balance is 5000.0. Please make the payment soon. This is an automated message, please do not reply.
+--------------------
+Date: 27/4/2025
+Time: 19:28
+Phone Number: +8247673952
+Message: Hello! Dear pilla devi tanuja This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid 24500.0 of 3 and your due balance is 500.0. Please make the payment soon. This is an automated message, please do not reply.
+--------------------
+Date: 27/4/2025
+Time: 19:30
+Phone Number: +9959385754
+Message: Hello! Dear ganesh This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid 20000.0 of semister-3 fee and your due balance is 5000.0. Please make the payment soon. This is an automated message, please do not reply.
+--------------------
+Date: 27/4/2025
+Time: 19:30
+Phone Number: +8247673952
+Message: Hello! Dear pilla devi tanuja This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid 24500.0 of semister-3 fee and your due balance is 500.0. Please make the payment soon. This is an automated message, please do not reply.
+--------------------
+Date: 27/4/2025
+Time: 19:32
+Phone Number: +9959385754
+Message: Hello! Dear ganesh This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid 20000.0 of semister-3 fee and your due balance is 5000.0. Please make the payment soon. This is an automated message, please do not reply.
+--------------------
+Date: 27/4/2025
+Time: 19:32
+Phone Number: +8247673952
+Message: Hello! Dear pilla devi tanuja This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid 24500.0 of semister-3 fee and your due balance is 500.0. Please make the payment soon. This is an automated message, please do not reply.
+--------------------
+Date: 27/4/2025
+Time: 19:43
+Phone Number: +9959385754
+Message: Hello! Dear ganesh This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹20000.0/- of SEMESTER-3 fee and your due balance is ₹5000.0/-. Please make the payment before due date 2025-05-28. This is an automated message, please do not reply.
+--------------------
+Date: 27/4/2025
+Time: 19:44
+Phone Number: +8247673952
+Message: Hello! Dear pilla devi tanuja This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹24500.0/- of SEMESTER-3 fee and your due balance is ₹500.0/-. Please make the payment before due date 2025-05-28. This is an automated message, please do not reply.
+--------------------
+Date: 27/4/2025
+Time: 20:6
+Phone Number: +8247673952
+Message: Hello! Dear pilla devi tanuja This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹24000.0/- of SEMESTER-2 fee and your due balance is ₹6000.0/-. Please make the payment before due date 2025-05-26. This is an automated message, please do not reply.
+--------------------
+Date: 27/4/2025
+Time: 20:9
+Phone Number: +7675009869
+Message: Hello! Dear ezra polavarapu This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹12000.0/- of SEMESTER-1 fee and your due balance is ₹13000.0/-. Please make the payment before due date 25024-03-25. This is an automated message, please do not reply.
+--------------------
+Date: 27/4/2025
+Time: 20:9
+Phone Number: +9959385754
+Message: Hello! Dear ganesh This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹15000.0/- of SEMESTER-1 fee and your due balance is ₹10000.0/-. Please make the payment before due date 25024-03-25. This is an automated message, please do not reply.
+--------------------
+Date: 27/4/2025
+Time: 20:11
+Phone Number: +8247673952
+Message: Hello! Dear pilla devi tanuja This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹24000.0/- of SEMESTER-2 fee and your due balance is ₹1000.0/-. Please make the payment before due date 2626-03-25. This is an automated message, please do not reply.
+--------------------
+Date: 27/4/2025
+Time: 20:12
+Phone Number: +8247673952
+Message: Hello! Dear pilla devi tanuja This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹24000.0/- of SEMESTER-2 fee and your due balance is ₹1000.0/-. Please make the payment before due date 2025-05-02. This is an automated message, please do not reply.
+--------------------
+Date: 27/4/2025
+Time: 20:13
+Phone Number: +7675009869
+Message: Hello! Dear ezra polavarapu This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹12000.0/- of SEMESTER-1 fee and your due balance is ₹13000.0/-. Please make the payment before due date 3233-05-02. This is an automated message, please do not reply.
+--------------------
+Date: 27/4/2025
+Time: 20:13
+Phone Number: +9959385754
+Message: Hello! Dear ganesh This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹15000.0/- of SEMESTER-1 fee and your due balance is ₹10000.0/-. Please make the payment before due date 3233-05-02. This is an automated message, please do not reply.
+--------------------
+Date: 27/4/2025
+Time: 20:17
+Phone Number: +7675009869
+Message: Hello! Dear ezra polavarapu This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹12000.0/- of SEMESTER-1 fee and your due balance is ₹13000.0/-. Please make the payment before due date 2025-05-02. This is an automated message, please do not reply.
+--------------------
+Date: 27/4/2025
+Time: 20:17
+Phone Number: +9959385754
+Message: Hello! Dear ganesh This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹15000.0/- of SEMESTER-1 fee and your due balance is ₹10000.0/-. Please make the payment before due date 2025-05-02. This is an automated message, please do not reply.
+--------------------
+Date: 27/4/2025
+Time: 20:42
+Phone Number: +7675009869
+Message: Hello! Dear ezra polavarapu This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹12000.0/- of SEMESTER-1 fee and your due balance is ₹13000.0/-. Please make the payment before due date 2025-05-02. This is an automated message, please do not reply.
+--------------------
+Date: 27/4/2025
+Time: 20:42
+Phone Number: +9959385754
+Message: Hello! Dear ganesh This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹15000.0/- of SEMESTER-1 fee and your due balance is ₹10000.0/-. Please make the payment before due date 2025-05-02. This is an automated message, please do not reply.
+--------------------
+Date: 27/4/2025
+Time: 20:59
+Phone Number: +20
+Message: Hello! Dear 20 This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹20000.0/- of SEMESTER-2 fee and your due balance is ₹180000.0/-. Please make the payment before due date 2025-05-02. This is an automated message, please do not reply.
+--------------------
+Date: 27/4/2025
+Time: 21:2
+Phone Number: +7675009869
+Message: Hello! Dear 20 This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹20000.0/- of SEMESTER-2 fee and your due balance is ₹180000.0/-. Please make the payment before due date 2025-05-02. This is an automated message, please do not reply.
+--------------------
+Date: 27/4/2025
+Time: 22:4
+Phone Number: +7675009869
+Message: Hello! Dear 20 This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹22000.0/- of SEMESTER-1 fee and your due balance is ₹3000.0/-. Please make the payment before due date 2025-05-02. This is an automated message, please do not reply.
+--------------------
+Date: 27/4/2025
+Time: 22:8
+Phone Number: +7675009869
+Message: Hello! Dear 20 This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹22000.0/- of SEMESTER-1 fee and your due balance is ₹228000.0/-. Please make the payment before due date 2025-05-02. This is an automated message, please do not reply.
+--------------------
+Date: 27/4/2025
+Time: 22:20
+Phone Number: +7675009869
+Message: Hello! Dear 20 This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹20000.0/- of SEMESTER-2 fee and your due balance is ₹202222.0/-. Please make the payment before due date 2222-02-22. This is an automated message, please do not reply.
+--------------------
+Date: 27/4/2025
+Time: 22:24
+Phone Number: +7675009869
+Message: Hello! Dear 20 This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹20000.0/- of SEMESTER-2 fee and your due balance is ₹2222.0/-. Please make the payment before due date 2222-02-22. This is an automated message, please do not reply.
+--------------------
+Date: 27/4/2025
+Time: 22:27
+Phone Number: +7675009869
+Message: Hello! Dear 20 This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹20000.0/- of SEMESTER-2 fee and your due balance is ₹2202222.0/-. Please make the payment before due date 2222-02-22. This is an automated message, please do not reply.
+--------------------
+Date: 27/4/2025
+Time: 23:10
+Phone Number: +7675009869
+Message: Hello! Dear 20 This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹20000.0/- of SEMESTER-2 fee and your due balance is ₹2222.0/-. Please make the payment before due date 2222-02-22. This is an automated message, please do not reply.
+--------------------
+Date: 27/4/2025
+Time: 23:59
+Phone Number: +7675009869
+Message: Hello! Dear 20 This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹20000.0/- of SEMESTER-2 fee and your due balance is ₹2222.0/-. Please make the payment before due date 2222-02-22. This is an automated message, please do not reply.
+--------------------
+Date: 28/4/2025
+Time: 9:25
+Phone Number: +7675009869
+Message: Hello! Dear 20 This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹22000.0/- of SEMESTER-1 fee and your due balance is ₹3000.0/-. Please make the payment before due date 2025-05-20. This is an automated message, please do not reply.
+--------------------
+Date: 28/4/2025
+Time: 9:30
+Phone Number: +7675009869
+Message: Hello! Dear 20 This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹22000.0/- of SEMESTER-1 fee and your due balance is ₹2200222.0/-. Please make the payment before due date 2222-02-22. This is an automated message, please do not reply.
+--------------------
+Date: 28/4/2025
+Time: 9:31
+Phone Number: +7675009869
+Message: Hello! Dear 20 This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹22000.0/- of SEMESTER-1 fee and your due balance is ₹2200222.0/-. Please make the payment before due date 2222-02-22. This is an automated message, please do not reply.
+--------------------
+Date: 28/4/2025
+Time: 9:33
+Phone Number: +7675009869
+Message: Hello! Dear 20 This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹22000.0/- of SEMESTER-1 fee and your due balance is ₹222.0/-. Please make the payment before due date 2222-02-22. This is an automated message, please do not reply.
+--------------------
+Date: 28/4/2025
+Time: 9:34
+Phone Number: +7675009869
+Message: Hello! Dear 20 This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹22000.0/- of SEMESTER-1 fee and your due balance is ₹222200222.0/-. Please make the payment before due date 2222-02-22. This is an automated message, please do not reply.
+--------------------
+Date: 28/4/2025
+Time: 9:48
+Phone Number: +mm
+Message: Hello! Dear 55555 This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹0.0/- of SEMESTER-1 fee and your due balance is ₹25000.0/-. Please make the payment before due date 52025-02-20. This is an automated message, please do not reply.
+--------------------
+Date: 28/4/2025
+Time: 9:48
+Phone Number: +7675009869
+Message: Hello! Dear ezra polavarapu This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹0.0/- of SEMESTER-1 fee and your due balance is ₹25000.0/-. Please make the payment before due date 52025-02-20. This is an automated message, please do not reply.
+--------------------
+Date: 28/4/2025
+Time: 9:48
+Phone Number: +8121994235
+Message: Hello! Dear vineeth This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹0.0/- of SEMESTER-1 fee and your due balance is ₹25000.0/-. Please make the payment before due date 52025-02-20. This is an automated message, please do not reply.
+--------------------
+Date: 28/4/2025
+Time: 9:48
+Phone Number: +ihiii
+Message: Hello! Dear khhjhjhjk This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹0.0/- of SEMESTER-1 fee and your due balance is ₹25000.0/-. Please make the payment before due date 52025-02-20. This is an automated message, please do not reply.
+--------------------
+Date: 28/4/2025
+Time: 9:49
+Phone Number: +9121031075
+Message: Hello! Dear vimal kumar This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹0.0/- of SEMESTER-1 fee and your due balance is ₹25000.0/-. Please make the payment before due date 52025-02-20. This is an automated message, please do not reply.
+--------------------
+Date: 28/4/2025
+Time: 9:49
+Phone Number: +9959385754
+Message: Hello! Dear ganesh This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹0.0/- of SEMESTER-1 fee and your due balance is ₹25000.0/-. Please make the payment before due date 52025-02-20. This is an automated message, please do not reply.
+--------------------
+Date: 28/4/2025
+Time: 9:49
+Phone Number: +77
+Message: Hello! Dear 77 This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹0.0/- of SEMESTER-1 fee and your due balance is ₹25000.0/-. Please make the payment before due date 52025-02-20. This is an automated message, please do not reply.
+--------------------
+Date: 28/4/2025
+Time: 9:50
+Phone Number: +4444
+Message: Hello! Dear 444 This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹0.0/- of SEMESTER-1 fee and your due balance is ₹25000.0/-. Please make the payment before due date 52025-02-20. This is an automated message, please do not reply.
+--------------------
+Date: 28/4/2025
+Time: 9:50
+Phone Number: +222222
+Message: Hello! Dear 22 This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹0.0/- of SEMESTER-1 fee and your due balance is ₹25000.0/-. Please make the payment before due date 52025-02-20. This is an automated message, please do not reply.
+--------------------
+Date: 28/4/2025
+Time: 9:50
+Phone Number: +8247673952
+Message: Hello! Dear pilla devi tanuja This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹0.0/- of SEMESTER-1 fee and your due balance is ₹25000.0/-. Please make the payment before due date 52025-02-20. This is an automated message, please do not reply.
+--------------------
+Date: 28/4/2025
+Time: 9:50
+Phone Number: +7675009869
+Message: Hello! Dear 20 This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹22000.0/- of SEMESTER-1 fee and your due balance is ₹3000.0/-. Please make the payment before due date 52025-02-20. This is an automated message, please do not reply.
+--------------------
+Date: 28/4/2025
+Time: 9:52
+Phone Number: +mm
+Message: Hello! Dear 55555 This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹0.0/- of SEMESTER-1 fee and your due balance is ₹25000.0/-. Please make the payment before due date 52025-02-20. This is an automated message, please do not reply.
+--------------------
+Date: 28/4/2025
+Time: 9:53
+Phone Number: +7675009869
+Message: Hello! Dear ezra polavarapu This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹0.0/- of SEMESTER-1 fee and your due balance is ₹25000.0/-. Please make the payment before due date 52025-02-20. This is an automated message, please do not reply.
+--------------------
+Date: 28/4/2025
+Time: 9:53
+Phone Number: +8121994235
+Message: Hello! Dear vineeth This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹0.0/- of SEMESTER-1 fee and your due balance is ₹25000.0/-. Please make the payment before due date 52025-02-20. This is an automated message, please do not reply.
+--------------------
+Date: 28/4/2025
+Time: 9:53
+Phone Number: +ihiii
+Message: Hello! Dear khhjhjhjk This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹0.0/- of SEMESTER-1 fee and your due balance is ₹25000.0/-. Please make the payment before due date 52025-02-20. This is an automated message, please do not reply.
+--------------------
+Date: 28/4/2025
+Time: 9:53
+Phone Number: +9121031075
+Message: Hello! Dear vimal kumar This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹0.0/- of SEMESTER-1 fee and your due balance is ₹25000.0/-. Please make the payment before due date 52025-02-20. This is an automated message, please do not reply.
+--------------------
+Date: 28/4/2025
+Time: 9:54
+Phone Number: +9959385754
+Message: Hello! Dear ganesh This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹0.0/- of SEMESTER-1 fee and your due balance is ₹25000.0/-. Please make the payment before due date 52025-02-20. This is an automated message, please do not reply.
+--------------------
+Date: 28/4/2025
+Time: 9:54
+Phone Number: +77
+Message: Hello! Dear 77 This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹0.0/- of SEMESTER-1 fee and your due balance is ₹25000.0/-. Please make the payment before due date 52025-02-20. This is an automated message, please do not reply.
+--------------------
+Date: 28/4/2025
+Time: 9:54
+Phone Number: +4444
+Message: Hello! Dear 444 This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹0.0/- of SEMESTER-1 fee and your due balance is ₹25000.0/-. Please make the payment before due date 52025-02-20. This is an automated message, please do not reply.
+--------------------
+Date: 28/4/2025
+Time: 9:55
+Phone Number: +222222
+Message: Hello! Dear 22 This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹0.0/- of SEMESTER-1 fee and your due balance is ₹25000.0/-. Please make the payment before due date 52025-02-20. This is an automated message, please do not reply.
+--------------------
+Date: 28/4/2025
+Time: 9:55
+Phone Number: +8247673952
+Message: Hello! Dear pilla devi tanuja This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹0.0/- of SEMESTER-1 fee and your due balance is ₹25000.0/-. Please make the payment before due date 52025-02-20. This is an automated message, please do not reply.
+--------------------
+Date: 28/4/2025
+Time: 9:55
+Phone Number: +7675009869
+Message: Hello! Dear 20 This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹22000.0/- of SEMESTER-1 fee and your due balance is ₹3000.0/-. Please make the payment before due date 52025-02-20. This is an automated message, please do not reply.
+--------------------
+Date: 28/4/2025
+Time: 9:57
+Phone Number: +mm
+Message: Hello! Dear 55555 This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹0.0/- of SEMESTER-1 fee and your due balance is ₹22222.0/-. Please make the payment before due date 2222-02-22. This is an automated message, please do not reply.
+--------------------
+Date: 28/4/2025
+Time: 9:57
+Phone Number: +7675009869
+Message: Hello! Dear ezra polavarapu This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹0.0/- of SEMESTER-1 fee and your due balance is ₹22222.0/-. Please make the payment before due date 2222-02-22. This is an automated message, please do not reply.
+--------------------
+Date: 28/4/2025
+Time: 9:57
+Phone Number: +mm
+Message: Hello! Dear 55555 This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹0.0/- of SEMESTER-1 fee and your due balance is ₹22222.0/-. Please make the payment before due date 2222-02-22. This is an automated message, please do not reply.
+--------------------
+Date: 28/4/2025
+Time: 9:58
+Phone Number: +8121994235
+Message: Hello! Dear vineeth This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹0.0/- of SEMESTER-1 fee and your due balance is ₹22222.0/-. Please make the payment before due date 2222-02-22. This is an automated message, please do not reply.
+--------------------
+Date: 28/4/2025
+Time: 9:58
+Phone Number: +7675009869
+Message: Hello! Dear ezra polavarapu This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹0.0/- of SEMESTER-1 fee and your due balance is ₹22222.0/-. Please make the payment before due date 2222-02-22. This is an automated message, please do not reply.
+--------------------
+Date: 28/4/2025
+Time: 9:58
+Phone Number: +ihiii
+Message: Hello! Dear khhjhjhjk This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹0.0/- of SEMESTER-1 fee and your due balance is ₹22222.0/-. Please make the payment before due date 2222-02-22. This is an automated message, please do not reply.
+--------------------
+Date: 28/4/2025
+Time: 9:58
+Phone Number: +8121994235
+Message: Hello! Dear vineeth This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹0.0/- of SEMESTER-1 fee and your due balance is ₹22222.0/-. Please make the payment before due date 2222-02-22. This is an automated message, please do not reply.
+--------------------
+Date: 28/4/2025
+Time: 9:58
+Phone Number: +mm
+Message: Hello! Dear 55555 This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹0.0/- of SEMESTER-1 fee and your due balance is ₹22222.0/-. Please make the payment before due date 2222-02-22. This is an automated message, please do not reply.
+--------------------
+Date: 28/4/2025
+Time: 9:59
+Phone Number: +9121031075
+Message: Hello! Dear vimal kumar This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹0.0/- of SEMESTER-1 fee and your due balance is ₹22222.0/-. Please make the payment before due date 2222-02-22. This is an automated message, please do not reply.
+--------------------
+Date: 28/4/2025
+Time: 9:59
+Phone Number: +ihiii
+Message: Hello! Dear khhjhjhjk This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹0.0/- of SEMESTER-1 fee and your due balance is ₹22222.0/-. Please make the payment before due date 2222-02-22. This is an automated message, please do not reply.
+--------------------
+Date: 28/4/2025
+Time: 9:59
+Phone Number: +7675009869
+Message: Hello! Dear ezra polavarapu This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹0.0/- of SEMESTER-1 fee and your due balance is ₹22222.0/-. Please make the payment before due date 2222-02-22. This is an automated message, please do not reply.
+--------------------
+Date: 28/4/2025
+Time: 9:59
+Phone Number: +9959385754
+Message: Hello! Dear ganesh This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹0.0/- of SEMESTER-1 fee and your due balance is ₹22222.0/-. Please make the payment before due date 2222-02-22. This is an automated message, please do not reply.
+--------------------
+Date: 28/4/2025
+Time: 9:59
+Phone Number: +9121031075
+Message: Hello! Dear vimal kumar This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹0.0/- of SEMESTER-1 fee and your due balance is ₹22222.0/-. Please make the payment before due date 2222-02-22. This is an automated message, please do not reply.
+--------------------
+Date: 28/4/2025
+Time: 9:59
+Phone Number: +8121994235
+Message: Hello! Dear vineeth This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹0.0/- of SEMESTER-1 fee and your due balance is ₹22222.0/-. Please make the payment before due date 2222-02-22. This is an automated message, please do not reply.
+--------------------
+Date: 28/4/2025
+Time: 9:59
+Phone Number: +77
+Message: Hello! Dear 77 This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹0.0/- of SEMESTER-1 fee and your due balance is ₹22222.0/-. Please make the payment before due date 2222-02-22. This is an automated message, please do not reply.
+--------------------
+Date: 28/4/2025
+Time: 9:59
+Phone Number: +9959385754
+Message: Hello! Dear ganesh This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹0.0/- of SEMESTER-1 fee and your due balance is ₹22222.0/-. Please make the payment before due date 2222-02-22. This is an automated message, please do not reply.
+--------------------
+Date: 28/4/2025
+Time: 9:59
+Phone Number: +ihiii
+Message: Hello! Dear khhjhjhjk This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹0.0/- of SEMESTER-1 fee and your due balance is ₹22222.0/-. Please make the payment before due date 2222-02-22. This is an automated message, please do not reply.
+--------------------
+Date: 28/4/2025
+Time: 10:0
+Phone Number: +4444
+Message: Hello! Dear 444 This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹0.0/- of SEMESTER-1 fee and your due balance is ₹22222.0/-. Please make the payment before due date 2222-02-22. This is an automated message, please do not reply.
+--------------------
+Date: 28/4/2025
+Time: 10:0
+Phone Number: +77
+Message: Hello! Dear 77 This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹0.0/- of SEMESTER-1 fee and your due balance is ₹22222.0/-. Please make the payment before due date 2222-02-22. This is an automated message, please do not reply.
+--------------------
+Date: 28/4/2025
+Time: 10:0
+Phone Number: +9121031075
+Message: Hello! Dear vimal kumar This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹0.0/- of SEMESTER-1 fee and your due balance is ₹22222.0/-. Please make the payment before due date 2222-02-22. This is an automated message, please do not reply.
+--------------------
+Date: 28/4/2025
+Time: 10:0
+Phone Number: +222222
+Message: Hello! Dear 22 This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹0.0/- of SEMESTER-1 fee and your due balance is ₹22222.0/-. Please make the payment before due date 2222-02-22. This is an automated message, please do not reply.
+--------------------
+Date: 28/4/2025
+Time: 10:0
+Phone Number: +4444
+Message: Hello! Dear 444 This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹0.0/- of SEMESTER-1 fee and your due balance is ₹22222.0/-. Please make the payment before due date 2222-02-22. This is an automated message, please do not reply.
+--------------------
+Date: 28/4/2025
+Time: 10:0
+Phone Number: +9959385754
+Message: Hello! Dear ganesh This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹0.0/- of SEMESTER-1 fee and your due balance is ₹22222.0/-. Please make the payment before due date 2222-02-22. This is an automated message, please do not reply.
+--------------------
+Date: 28/4/2025
+Time: 10:0
+Phone Number: +8247673952
+Message: Hello! Dear pilla devi tanuja This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹0.0/- of SEMESTER-1 fee and your due balance is ₹22222.0/-. Please make the payment before due date 2222-02-22. This is an automated message, please do not reply.
+--------------------
+Date: 28/4/2025
+Time: 10:0
+Phone Number: +222222
+Message: Hello! Dear 22 This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹0.0/- of SEMESTER-1 fee and your due balance is ₹22222.0/-. Please make the payment before due date 2222-02-22. This is an automated message, please do not reply.
+--------------------
+Date: 28/4/2025
+Time: 10:0
+Phone Number: +77
+Message: Hello! Dear 77 This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹0.0/- of SEMESTER-1 fee and your due balance is ₹22222.0/-. Please make the payment before due date 2222-02-22. This is an automated message, please do not reply.
+--------------------
+Date: 28/4/2025
+Time: 10:1
+Phone Number: +7675009869
+Message: Hello! Dear 20 This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹22000.0/- of SEMESTER-1 fee and your due balance is ₹222.0/-. Please make the payment before due date 2222-02-22. This is an automated message, please do not reply.
+--------------------
+Date: 28/4/2025
+Time: 10:1
+Phone Number: +8247673952
+Message: Hello! Dear pilla devi tanuja This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹0.0/- of SEMESTER-1 fee and your due balance is ₹22222.0/-. Please make the payment before due date 2222-02-22. This is an automated message, please do not reply.
+--------------------
+Date: 28/4/2025
+Time: 10:1
+Phone Number: +4444
+Message: Hello! Dear 444 This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹0.0/- of SEMESTER-1 fee and your due balance is ₹22222.0/-. Please make the payment before due date 2222-02-22. This is an automated message, please do not reply.
+--------------------
+Date: 28/4/2025
+Time: 10:1
+Phone Number: +7675009869
+Message: Hello! Dear 20 This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹22000.0/- of SEMESTER-1 fee and your due balance is ₹222.0/-. Please make the payment before due date 2222-02-22. This is an automated message, please do not reply.
+--------------------
+Date: 28/4/2025
+Time: 10:1
+Phone Number: +222222
+Message: Hello! Dear 22 This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹0.0/- of SEMESTER-1 fee and your due balance is ₹22222.0/-. Please make the payment before due date 2222-02-22. This is an automated message, please do not reply.
+--------------------
+Date: 28/4/2025
+Time: 10:1
+Phone Number: +8247673952
+Message: Hello! Dear pilla devi tanuja This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹0.0/- of SEMESTER-1 fee and your due balance is ₹22222.0/-. Please make the payment before due date 2222-02-22. This is an automated message, please do not reply.
+--------------------
+Date: 28/4/2025
+Time: 10:2
+Phone Number: +7675009869
+Message: Hello! Dear 20 This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹22000.0/- of SEMESTER-1 fee and your due balance is ₹222.0/-. Please make the payment before due date 2222-02-22. This is an automated message, please do not reply.
+--------------------
+Date: 28/4/2025
+Time: 10:33
+Phone Number: +mm
+Message: Hello! Dear 55555 This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹0.0/- of SEMESTER-2 fee and your due balance is ₹222.0/-. Please make the payment before due date 2222-02-22. This is an automated message, please do not reply.
+--------------------
+Date: 28/4/2025
+Time: 10:33
+Phone Number: +mm
+Message: Hello! Dear 55555 This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹0.0/- of SEMESTER-2 fee and your due balance is ₹222.0/-. Please make the payment before due date 2222-02-22. This is an automated message, please do not reply.
+--------------------
+Date: 28/4/2025
+Time: 11:1
+Phone Number: +mm
+Message: Hello! Dear 55555 This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹0.0/- of SEMESTER-2 fee and your due balance is ₹222.0/-. Please make the payment before due date 2222-02-22. This is an automated message, please do not reply.
+--------------------
+Date: 28/4/2025
+Time: 11:2
+Phone Number: +7675009869
+Message: Hello! Dear ezra polavarapu This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹0.0/- of SEMESTER-2 fee and your due balance is ₹222.0/-. Please make the payment before due date 2222-02-22. This is an automated message, please do not reply.
+--------------------
+Date: 28/4/2025
+Time: 11:2
+Phone Number: +8121994235
+Message: Hello! Dear vineeth This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹0.0/- of SEMESTER-2 fee and your due balance is ₹222.0/-. Please make the payment before due date 2222-02-22. This is an automated message, please do not reply.
+--------------------
+Date: 28/4/2025
+Time: 11:3
+Phone Number: +ihiii
+Message: Hello! Dear khhjhjhjk This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹0.0/- of SEMESTER-2 fee and your due balance is ₹222.0/-. Please make the payment before due date 2222-02-22. This is an automated message, please do not reply.
+--------------------
+Date: 28/4/2025
+Time: 11:3
+Phone Number: +9121031075
+Message: Hello! Dear vimal kumar This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹0.0/- of SEMESTER-2 fee and your due balance is ₹222.0/-. Please make the payment before due date 2222-02-22. This is an automated message, please do not reply.
+--------------------
+Date: 28/4/2025
+Time: 11:3
+Phone Number: +9959385754
+Message: Hello! Dear ganesh This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹0.0/- of SEMESTER-2 fee and your due balance is ₹222.0/-. Please make the payment before due date 2222-02-22. This is an automated message, please do not reply.
+--------------------
+Date: 28/4/2025
+Time: 11:4
+Phone Number: +77
+Message: Hello! Dear 77 This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹0.0/- of SEMESTER-2 fee and your due balance is ₹222.0/-. Please make the payment before due date 2222-02-22. This is an automated message, please do not reply.
+--------------------
+Date: 28/4/2025
+Time: 11:4
+Phone Number: +4444
+Message: Hello! Dear 444 This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹0.0/- of SEMESTER-2 fee and your due balance is ₹222.0/-. Please make the payment before due date 2222-02-22. This is an automated message, please do not reply.
+--------------------
+Date: 28/4/2025
+Time: 11:4
+Phone Number: +222222
+Message: Hello! Dear 22 This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹0.0/- of SEMESTER-2 fee and your due balance is ₹222.0/-. Please make the payment before due date 2222-02-22. This is an automated message, please do not reply.
+--------------------
+Date: 28/4/2025
+Time: 11:5
+Phone Number: +8247673952
+Message: Hello! Dear pilla devi tanuja This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹0.0/- of SEMESTER-2 fee and your due balance is ₹222.0/-. Please make the payment before due date 2222-02-22. This is an automated message, please do not reply.
+--------------------
+Date: 28/4/2025
+Time: 12:49
+Phone Number: +nan
+Message: Hello! Dear nan This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹0.0/- of SEMESTER-1 fee and your due balance is ₹25000.0/-. Please make the payment before due date 2025-06-05. This is an automated message, please do not reply.
+--------------------
+Date: 28/4/2025
+Time: 12:49
+Phone Number: +nan
+Message: Hello! Dear nan This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹0.0/- of SEMESTER-1 fee and your due balance is ₹25000.0/-. Please make the payment before due date 2025-06-05. This is an automated message, please do not reply.
+--------------------
+Date: 28/4/2025
+Time: 12:49
+Phone Number: +nan
+Message: Hello! Dear nan This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹0.0/- of SEMESTER-1 fee and your due balance is ₹25000.0/-. Please make the payment before due date 2025-06-05. This is an automated message, please do not reply.
+--------------------
+Date: 28/4/2025
+Time: 12:50
+Phone Number: +nan
+Message: Hello! Dear nan This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹0.0/- of SEMESTER-1 fee and your due balance is ₹25000.0/-. Please make the payment before due date 2025-06-05. This is an automated message, please do not reply.
+--------------------
+Date: 28/4/2025
+Time: 12:50
+Phone Number: +nan
+Message: Hello! Dear nan This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹0.0/- of SEMESTER-1 fee and your due balance is ₹25000.0/-. Please make the payment before due date 2025-06-05. This is an automated message, please do not reply.
+--------------------
+Date: 28/4/2025
+Time: 12:50
+Phone Number: +nan
+Message: Hello! Dear nan This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹0.0/- of SEMESTER-1 fee and your due balance is ₹25000.0/-. Please make the payment before due date 2025-06-05. This is an automated message, please do not reply.
+--------------------
+Date: 28/4/2025
+Time: 12:50
+Phone Number: +nan
+Message: Hello! Dear nan This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹0.0/- of SEMESTER-1 fee and your due balance is ₹25000.0/-. Please make the payment before due date 2025-06-05. This is an automated message, please do not reply.
+--------------------
+Date: 28/4/2025
+Time: 12:50
+Phone Number: +nan
+Message: Hello! Dear nan This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹0.0/- of SEMESTER-1 fee and your due balance is ₹25000.0/-. Please make the payment before due date 2025-06-05. This is an automated message, please do not reply.
+--------------------
+Date: 28/4/2025
+Time: 12:50
+Phone Number: +nan
+Message: Hello! Dear nan This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹0.0/- of SEMESTER-1 fee and your due balance is ₹25000.0/-. Please make the payment before due date 2025-06-05. This is an automated message, please do not reply.
+--------------------
+Date: 28/4/2025
+Time: 12:50
+Phone Number: +nan
+Message: Hello! Dear nan This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹0.0/- of SEMESTER-1 fee and your due balance is ₹25000.0/-. Please make the payment before due date 2025-06-05. This is an automated message, please do not reply.
+--------------------
+Date: 28/4/2025
+Time: 12:50
+Phone Number: +nan
+Message: Hello! Dear nan This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹0.0/- of SEMESTER-1 fee and your due balance is ₹25000.0/-. Please make the payment before due date 2025-06-05. This is an automated message, please do not reply.
+--------------------
+Date: 28/4/2025
+Time: 12:50
+Phone Number: +nan
+Message: Hello! Dear nan This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹0.0/- of SEMESTER-1 fee and your due balance is ₹25000.0/-. Please make the payment before due date 2025-06-05. This is an automated message, please do not reply.
+--------------------
+Date: 28/4/2025
+Time: 12:51
+Phone Number: +nan
+Message: Hello! Dear nan This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹0.0/- of SEMESTER-1 fee and your due balance is ₹25000.0/-. Please make the payment before due date 2025-06-05. This is an automated message, please do not reply.
+--------------------
+Date: 28/4/2025
+Time: 12:51
+Phone Number: +nan
+Message: Hello! Dear nan This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹0.0/- of SEMESTER-1 fee and your due balance is ₹25000.0/-. Please make the payment before due date 2025-06-05. This is an automated message, please do not reply.
+--------------------
+Date: 28/4/2025
+Time: 12:51
+Phone Number: +nan
+Message: Hello! Dear nan This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹0.0/- of SEMESTER-1 fee and your due balance is ₹25000.0/-. Please make the payment before due date 2025-06-05. This is an automated message, please do not reply.
+--------------------
+Date: 28/4/2025
+Time: 12:51
+Phone Number: +nan
+Message: Hello! Dear nan This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹0.0/- of SEMESTER-1 fee and your due balance is ₹25000.0/-. Please make the payment before due date 2025-06-05. This is an automated message, please do not reply.
+--------------------
+Date: 28/4/2025
+Time: 12:51
+Phone Number: +nan
+Message: Hello! Dear nan This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹0.0/- of SEMESTER-1 fee and your due balance is ₹25000.0/-. Please make the payment before due date 2025-06-05. This is an automated message, please do not reply.
+--------------------
+Date: 28/4/2025
+Time: 12:51
+Phone Number: +nan
+Message: Hello! Dear nan This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹0.0/- of SEMESTER-1 fee and your due balance is ₹25000.0/-. Please make the payment before due date 2025-06-05. This is an automated message, please do not reply.
+--------------------
+Date: 28/4/2025
+Time: 12:51
+Phone Number: +nan
+Message: Hello! Dear nan This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹0.0/- of SEMESTER-1 fee and your due balance is ₹25000.0/-. Please make the payment before due date 2025-06-05. This is an automated message, please do not reply.
+--------------------
+Date: 28/4/2025
+Time: 12:51
+Phone Number: +nan
+Message: Hello! Dear nan This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹0.0/- of SEMESTER-1 fee and your due balance is ₹25000.0/-. Please make the payment before due date 2025-06-05. This is an automated message, please do not reply.
+--------------------
+Date: 28/4/2025
+Time: 12:52
+Phone Number: +nan
+Message: Hello! Dear nan This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹0.0/- of SEMESTER-1 fee and your due balance is ₹25000.0/-. Please make the payment before due date 2025-06-05. This is an automated message, please do not reply.
+--------------------
+Date: 28/4/2025
+Time: 12:52
+Phone Number: +nan
+Message: Hello! Dear nan This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹0.0/- of SEMESTER-1 fee and your due balance is ₹25000.0/-. Please make the payment before due date 2025-06-05. This is an automated message, please do not reply.
+--------------------
+Date: 28/4/2025
+Time: 12:52
+Phone Number: +nan
+Message: Hello! Dear nan This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹0.0/- of SEMESTER-1 fee and your due balance is ₹25000.0/-. Please make the payment before due date 2025-06-05. This is an automated message, please do not reply.
+--------------------
+Date: 28/4/2025
+Time: 12:52
+Phone Number: +nan
+Message: Hello! Dear nan This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹0.0/- of SEMESTER-1 fee and your due balance is ₹25000.0/-. Please make the payment before due date 2025-06-05. This is an automated message, please do not reply.
+--------------------
+Date: 28/4/2025
+Time: 12:54
+Phone Number: +7675009869
+Message: Hello! Dear 20 This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹0.0/- of SEMESTER-2 fee and your due balance is ₹25000.0/-. Please make the payment before due date 2025-05-02. This is an automated message, please do not reply.
+--------------------
+Date: 28/4/2025
+Time: 12:56
+Phone Number: +7675009869
+Message: Hello! Dear 20 This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹0.0/- of SEMESTER-1 fee and your due balance is ₹25000.0/-. Please make the payment before due date 2025-05-20. This is an automated message, please do not reply.
+--------------------
+Date: 28/4/2025
+Time: 12:56
+Phone Number: +8341645876
+Message: Hello! Dear alekhya This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹20000.0/- of SEMESTER-1 fee and your due balance is ₹5000.0/-. Please make the payment before due date 2025-05-20. This is an automated message, please do not reply.
+--------------------
+Date: 3/5/2025
+Time: 11:42
+Phone Number: +7675009869
+Message: Hello! Dear 20 This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹0.0/- of SEMESTER-2 fee and your due balance is ₹25000.0/-. Please make the payment before due date 2025-05-03. This is an automated message, please do not reply.
+--------------------
+Date: 3/5/2025
+Time: 11:43
+Phone Number: +8341645876
+Message: Hello! Dear alekhya This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹0.0/- of SEMESTER-2 fee and your due balance is ₹25000.0/-. Please make the payment before due date 2025-05-03. This is an automated message, please do not reply.
+--------------------
+Date: 3/5/2025
+Time: 11:43
+Phone Number: +7675009869
+Message: Hello! Dear Polavarapu Ezra This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹19000.0/- of SEMESTER-2 fee and your due balance is ₹6000.0/-. Please make the payment before due date 2025-05-03. This is an automated message, please do not reply.
+--------------------
+Date: 3/5/2025
+Time: 11:44
+Phone Number: +7675009869
+Message: Hello! Dear 20 This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹0.0/- of SEMESTER-2 fee and your due balance is ₹25000.0/-. Please make the payment before due date 2025-05-20. This is an automated message, please do not reply.
+--------------------
+Date: 3/5/2025
+Time: 11:45
+Phone Number: +8341645876
+Message: Hello! Dear alekhya This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹0.0/- of SEMESTER-2 fee and your due balance is ₹25000.0/-. Please make the payment before due date 2025-05-20. This is an automated message, please do not reply.
+--------------------
+Date: 3/5/2025
+Time: 11:45
+Phone Number: +7675009869
+Message: Hello! Dear Polavarapu Ezra This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹19000.0/- of SEMESTER-2 fee and your due balance is ₹6000.0/-. Please make the payment before due date 2025-05-20. This is an automated message, please do not reply.
+--------------------
+Date: 3/5/2025
+Time: 11:48
+Phone Number: +7675009869
+Message: Hello! Dear Polavarapu Ezra This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹19000.0/- of SEMESTER-2 fee and your due balance is ₹6000.0/-. Please make the payment before due date 2025-05-20. This is an automated message, please do not reply.
+--------------------
+Date: 11/5/2025
+Time: 17:11
+Phone Number: +7675009869
+Message: Hello! Dear Polavarapu Ezra This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹0.0/- of SEMESTER-1 fee and your due balance is ₹25000.0/-. Please make the payment before due date 2025-06-03. This is an automated message, please do not reply.
+--------------------
+Date: 11/5/2025
+Time: 17:12
+Phone Number: +9959385754
+Message: Hello! Dear 63 This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹0.0/- of SEMESTER-1 fee and your due balance is ₹25000.0/-. Please make the payment before due date 2025-06-03. This is an automated message, please do not reply.
+--------------------
+Date: 11/5/2025
+Time: 17:12
+Phone Number: +7675009869
+Message: Hello! Dear Polavarapu Ezra This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹0.0/- of SEMESTER-1 fee and your due balance is ₹25000.0/-. Please make the payment before due date 2025-06-03. This is an automated message, please do not reply.
+--------------------
+Date: 11/5/2025
+Time: 17:12
+Phone Number: +66666666
+Message: Hello! Dear 66 This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹0.0/- of SEMESTER-1 fee and your due balance is ₹25000.0/-. Please make the payment before due date 2025-06-03. This is an automated message, please do not reply.
+--------------------
+Date: 11/5/2025
+Time: 17:12
+Phone Number: +9959385754
+Message: Hello! Dear 63 This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹0.0/- of SEMESTER-1 fee and your due balance is ₹25000.0/-. Please make the payment before due date 2025-06-03. This is an automated message, please do not reply.
+--------------------
+Date: 11/5/2025
+Time: 17:12
+Phone Number: +7675009869
+Message: Hello! Dear Polavarapu Ezra This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹0.0/- of SEMESTER-1 fee and your due balance is ₹25000.0/-. Please make the payment before due date 2025-06-03. This is an automated message, please do not reply.
+--------------------
+Date: 11/5/2025
+Time: 17:12
+Phone Number: +7287069698
+Message: Hello! Dear vimala kumari This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹20000.0/- of SEMESTER-1 fee and your due balance is ₹5000.0/-. Please make the payment before due date 2025-06-03. This is an automated message, please do not reply.
+--------------------
+Date: 11/5/2025
+Time: 17:12
+Phone Number: +66666666
+Message: Hello! Dear 66 This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹0.0/- of SEMESTER-1 fee and your due balance is ₹25000.0/-. Please make the payment before due date 2025-06-03. This is an automated message, please do not reply.
+--------------------
+Date: 11/5/2025
+Time: 17:13
+Phone Number: +9959385754
+Message: Hello! Dear 63 This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹0.0/- of SEMESTER-1 fee and your due balance is ₹25000.0/-. Please make the payment before due date 2025-06-03. This is an automated message, please do not reply.
+--------------------
+Date: 11/5/2025
+Time: 17:13
+Phone Number: +7287069698
+Message: Hello! Dear vimala kumari This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹20000.0/- of SEMESTER-1 fee and your due balance is ₹5000.0/-. Please make the payment before due date 2025-06-03. This is an automated message, please do not reply.
+--------------------
+Date: 11/5/2025
+Time: 17:13
+Phone Number: +66666666
+Message: Hello! Dear 66 This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹0.0/- of SEMESTER-1 fee and your due balance is ₹25000.0/-. Please make the payment before due date 2025-06-03. This is an automated message, please do not reply.
+--------------------
+Date: 11/5/2025
+Time: 17:13
+Phone Number: +7287069698
+Message: Hello! Dear vimala kumari This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹20000.0/- of SEMESTER-1 fee and your due balance is ₹5000.0/-. Please make the payment before due date 2025-06-03. This is an automated message, please do not reply.
+--------------------
+Date: 11/5/2025
+Time: 17:19
+Phone Number: +0
+Message: Hello! Dear 0 This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹0.0/- of SEMESTER-1 fee and your due balance is ₹25000.0/-. Please make the payment before due date 2025-05-03. This is an automated message, please do not reply.
+--------------------
+Date: 11/5/2025
+Time: 17:20
+Phone Number: +7675009869
+Message: Hello! Dear Polavarapu Ezra This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹15000.0/- of SEMESTER-1 fee and your due balance is ₹10000.0/-. Please make the payment before due date 2025-05-03. This is an automated message, please do not reply.
+--------------------
+Date: 11/5/2025
+Time: 17:20
+Phone Number: +9959385754
+Message: Hello! Dear 63 This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹14500.0/- of SEMESTER-1 fee and your due balance is ₹10500.0/-. Please make the payment before due date 2025-05-03. This is an automated message, please do not reply.
+--------------------
+Date: 11/5/2025
+Time: 17:20
+Phone Number: +7287069698
+Message: Hello! Dear vimala kumari This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹20000.0/- of SEMESTER-1 fee and your due balance is ₹5000.0/-. Please make the payment before due date 2025-05-03. This is an automated message, please do not reply.
+--------------------
+Date: 13/5/2025
+Time: 22:15
+Phone Number: +7675009869
+Message: Hello! Dear Polavarapu Ezra This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹12000.0/- of SEMESTER-4 fee and your due balance is ₹13000.0/-. Please make the payment before due date 2025-06-10. This is an automated message, please do not reply.
+--------------------
+Date: 13/5/2025
+Time: 22:17
+Phone Number: +7675009869
+Message: Hello! Dear Polavarapu Ezra This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹12000.0/- of SEMESTER-4 fee and your due balance is ₹13000.0/-. Please make the payment before due date 2025-06-15. This is an automated message, please do not reply.
+--------------------
+Date: 13/5/2025
+Time: 22:20
+Phone Number: +9398653069
+Message: Hello! Dear Polavarapu Ezra This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹12000.0/- of SEMESTER-4 fee and your due balance is ₹13000.0/-. Please make the payment before due date 2025-06-16. This is an automated message, please do not reply.
+--------------------
+Date: 13/5/2025
+Time: 22:35
+Phone Number: +9398653069
+Message: Hello! Dear Polavarapu Ezra This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹12000.0/- of SEMESTER-4 fee and your due balance is ₹13000.0/-. Please make the payment before due date 2025-06-16. This is an automated message, please do not reply.
+--------------------
+Date: 13/5/2025
+Time: 22:36
+Phone Number: +9123456780
+Message: Hello! Dear Anil Kumar This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹12000.0/- of SEMESTER-4 fee and your due balance is ₹13000.0/-. Please make the payment before due date 2025-06-16. This is an automated message, please do not reply.
+--------------------
+Date: 13/5/2025
+Time: 22:36
+Phone Number: +9876543210
+Message: Hello! Dear Swapna Reddy This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹12000.0/- of SEMESTER-4 fee and your due balance is ₹13000.0/-. Please make the payment before due date 2025-06-16. This is an automated message, please do not reply.
+--------------------
+Date: 13/5/2025
+Time: 22:36
+Phone Number: +9988776655
+Message: Hello! Dear Vikram Singh This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹12000.0/- of SEMESTER-4 fee and your due balance is ₹13000.0/-. Please make the payment before due date 2025-06-16. This is an automated message, please do not reply.
+--------------------
+Date: 13/5/2025
+Time: 22:37
+Phone Number: +9123459876
+Message: Hello! Dear Divya Sharma This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹12000.0/- of SEMESTER-4 fee and your due balance is ₹13000.0/-. Please make the payment before due date 2025-06-16. This is an automated message, please do not reply.
+--------------------
+Date: 13/5/2025
+Time: 22:37
+Phone Number: +9001122334
+Message: Hello! Dear Ravi Teja This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹12000.0/- of SEMESTER-4 fee and your due balance is ₹13000.0/-. Please make the payment before due date 2025-06-16. This is an automated message, please do not reply.
+--------------------
+Date: 13/5/2025
+Time: 22:37
+Phone Number: +9033221100
+Message: Hello! Dear Meghana Das This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹12000.0/- of SEMESTER-4 fee and your due balance is ₹13000.0/-. Please make the payment before due date 2025-06-16. This is an automated message, please do not reply.
+--------------------
+Date: 13/5/2025
+Time: 22:38
+Phone Number: +9011223344
+Message: Hello! Dear Tarun Babu This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹12000.0/- of SEMESTER-4 fee and your due balance is ₹13000.0/-. Please make the payment before due date 2025-06-16. This is an automated message, please do not reply.
+--------------------
+Date: 13/5/2025
+Time: 22:38
+Phone Number: +9023445566
+Message: Hello! Dear Harika Devi This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹12000.0/- of SEMESTER-4 fee and your due balance is ₹13000.0/-. Please make the payment before due date 2025-06-16. This is an automated message, please do not reply.
+--------------------
+Date: 13/5/2025
+Time: 22:38
+Phone Number: +9055667788
+Message: Hello! Dear Kiran Kumar This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹12000.0/- of SEMESTER-4 fee and your due balance is ₹13000.0/-. Please make the payment before due date 2025-06-16. This is an automated message, please do not reply.
+--------------------
+Date: 13/5/2025
+Time: 22:41
+Phone Number: +9398653069
+Message: Hello! Dear Polavarapu Ezra This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹12000.0/- of SEMESTER-4 fee and your due balance is ₹13000.0/-. Please make the payment before due date 2025-06-16. This is an automated message, please do not reply.
+--------------------
+Date: 13/5/2025
+Time: 22:41
+Phone Number: +9123456780
+Message: Hello! Dear Anil Kumar This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹12000.0/- of SEMESTER-4 fee and your due balance is ₹13000.0/-. Please make the payment before due date 2025-06-16. This is an automated message, please do not reply.
+--------------------
+Date: 3/7/2025
+Time: 21:21
+Phone Number: +9398653069
+Message: Hello! Dear Polavarapu Ezra This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹12000.0/- of SEMESTER-4 fee and your due balance is ₹13000.0/-. Please make the payment before due date 2025-06-16. This is an automated message, please do not reply.
+--------------------
+Date: 3/7/2025
+Time: 21:22
+Phone Number: +9123456780
+Message: Hello! Dear Anil Kumar This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹12000.0/- of SEMESTER-4 fee and your due balance is ₹13000.0/-. Please make the payment before due date 2025-06-16. This is an automated message, please do not reply.
+--------------------
+Date: 3/7/2025
+Time: 21:33
+Phone Number: +7675009869
+Message: Hello! Dear Polavarapu Ezra This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹9000.0/- of SEMESTER-4 fee and your due balance is ₹16000.0/-. Please make the payment before due date 2025-06-16. This is an automated message, please do not reply.
+--------------------
+Date: 3/7/2025
+Time: 21:46
+Phone Number: +9123456780
+Message: Hello! Dear Anil Kumar This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹8000.0/- of SEMESTER-4 fee and your due balance is ₹1000.0/-. Please make the payment before due date 6266-02-15. This is an automated message, please do not reply.
+--------------------
+Date: 3/7/2025
+Time: 21:55
+Phone Number: +9123456780
+Message: Hello! Dear Anil Kumar This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹8000.0/- of SEMESTER-4 fee and your due balance is ₹1000.0/-. Please make the payment before due date 2025-05-14. This is an automated message, please do not reply.
+--------------------
+Date: 3/7/2025
+Time: 21:56
+Phone Number: +7675009869
+Message: Hello! Dear Polavarapu Ezra This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹9000.0/- of SEMESTER-4 fee and your due balance is ₹16000.0/-. Please make the payment before due date 2025-06-16. This is an automated message, please do not reply.
+--------------------
+Date: 3/7/2025
+Time: 21:57
+Phone Number: +9123456780
+Message: Hello! Dear Anil Kumar This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹8000.0/- of SEMESTER-4 fee and your due balance is ₹17000.0/-. Please make the payment before due date 2025-06-16. This is an automated message, please do not reply.
+--------------------
+Date: 23/7/2025
+Time: 12:15
+Phone Number: +7675009869
+Message: Hello! Dear Polavarapu Ezra This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹9000.0/- of SEMESTER-4 fee and your due balance is ₹16000.0/-. Please make the payment before due date 2025-07-23. This is an automated message, please do not reply.
+--------------------
+Date: 23/7/2025
+Time: 12:16
+Phone Number: +9123456780
+Message: Hello! Dear Anil Kumar This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹8000.0/- of SEMESTER-4 fee and your due balance is ₹17000.0/-. Please make the payment before due date 2025-07-23. This is an automated message, please do not reply.
+--------------------
+Date: 23/7/2025
+Time: 12:16
+Phone Number: +7675009869
+Message: Hello! Dear Polavarapu Ezra This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹9000.0/- of SEMESTER-4 fee and your due balance is ₹16000.0/-. Please make the payment before due date 2025-07-23. This is an automated message, please do not reply.
+--------------------
+Date: 23/7/2025
+Time: 12:16
+Phone Number: +9123456780
+Message: Hello! Dear Anil Kumar This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹8000.0/- of SEMESTER-4 fee and your due balance is ₹17000.0/-. Please make the payment before due date 2025-07-23. This is an automated message, please do not reply.
+--------------------
+Date: 23/7/2025
+Time: 12:16
+Phone Number: +7675009869
+Message: Hello! Dear Polavarapu Ezra This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹9000.0/- of SEMESTER-4 fee and your due balance is ₹16000.0/-. Please make the payment before due date 2025-07-23. This is an automated message, please do not reply.
+--------------------
+Date: 9/8/2025
+Time: 20:30
+Phone Number: +1234567890
+Message: Hello! Dear ddfgdfg This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹0.0/- of SEMESTER-4 fee and your due balance is ₹25000.0/-. Please make the payment before due date 2025-08-23. This is an automated message, please do not reply.
+--------------------
+Date: 9/8/2025
+Time: 20:30
+Phone Number: +7675009869
+Message: Hello! Dear polavarapu ezra This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹12000.0/- of SEMESTER-4 fee and your due balance is ₹13000.0/-. Please make the payment before due date 2025-08-23. This is an automated message, please do not reply.
+--------------------
+Date: 9/8/2025
+Time: 20:32
+Phone Number: +1234567890
+Message: Hello! Dear ddfgdfg This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹0.0/- of SEMESTER-2 fee and your due balance is ₹25000.0/-. Please make the payment before due date 2026-02-20. This is an automated message, please do not reply.
+--------------------
+Date: 20/4/2026
+Time: 11:32
+Phone Number: +1234567890
+Message: Hello! Dear ddfgdfg This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹0.0/- of SEMESTER-1 fee and your due balance is ₹500000.0/-. Please make the payment before due date 2027-09-03. This is an automated message, please do not reply.
+--------------------
+Date: 20/4/2026
+Time: 11:32
+Phone Number: +7675009869
+Message: Hello! Dear polavarapu ezra This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹0.0/- of SEMESTER-1 fee and your due balance is ₹500000.0/-. Please make the payment before due date 2027-09-03. This is an automated message, please do not reply.
+--------------------
+Date: 20/4/2026
+Time: 11:32
+Phone Number: +6303939734
+Message: Hello! Dear vishal polavarapu This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹0.0/- of SEMESTER-1 fee and your due balance is ₹500000.0/-. Please make the payment before due date 2027-09-03. This is an automated message, please do not reply.
+--------------------
+Date: 20/4/2026
+Time: 11:33
+Phone Number: +gfh
+Message: Hello! Dear 6262 This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹0.0/- of SEMESTER-1 fee and your due balance is ₹500000.0/-. Please make the payment before due date 2027-09-03. This is an automated message, please do not reply.
+--------------------
+Date: 20/4/2026
+Time: 11:33
+Phone Number: +323232
+Message: Hello! Dear 3232 This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹0.0/- of SEMESTER-1 fee and your due balance is ₹500000.0/-. Please make the payment before due date 2027-09-03. This is an automated message, please do not reply.
+--------------------
+Date: 20/4/2026
+Time: 11:34
+Phone Number: +3232
+Message: Hello! Dear 3232 This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹0.0/- of SEMESTER-1 fee and your due balance is ₹500000.0/-. Please make the payment before due date 2027-09-03. This is an automated message, please do not reply.
+--------------------
+Date: 20/4/2026
+Time: 11:34
+Phone Number: +3232
+Message: Hello! Dear 3232 This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹0.0/- of SEMESTER-1 fee and your due balance is ₹500000.0/-. Please make the payment before due date 2027-09-03. This is an automated message, please do not reply.
+--------------------
+Date: 20/4/2026
+Time: 11:34
+Phone Number: +7675009869
+Message: Hello! Dear ezra This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹25000.0/- of SEMESTER-1 fee and your due balance is ₹475000.0/-. Please make the payment before due date 2027-09-03. This is an automated message, please do not reply.
+--------------------
+Date: 20/4/2026
+Time: 11:35
+Phone Number: +7675009869
+Message: Hello! Dear ezra This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. You have paid ₹25000.0/- of SEMESTER-1 fee and your due balance is ₹475000.0/-. Please make the payment before due date 2027-09-03. This is an automated message, please do not reply.
+--------------------
