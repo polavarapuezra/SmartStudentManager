@@ -2,9 +2,12 @@ import os
 from flask import Flask, request,jsonify,render_template
 import pandas as pd
 import webview
-import pywhatkit as kit
-import time
+import requests
+from dotenv import load_dotenv
+load_dotenv()
 import sys
+
+from data_access import read_data, save_data as save_excel, FILE_PATH
 
 if getattr(sys, 'frozen', False):
     app_path = sys._MEIPASS  # For bundled app
@@ -16,14 +19,52 @@ new_file_path = os.path.join(app_path, 'studentdata.xlsx')
 
 app = Flask(__name__, template_folder='template')
 window=webview.create_window('Noble Institute of Science and Technology (NIST)',app,width=1920, height=1080,resizable=True,fullscreen=False)
-FILE_PATH = "studentdata.xlsx"
 
-@app.route('/') 
-
+@app.route('/')
 def index():
-    return render_template('main.html')
+    df = read_data()
 
+    total_students = len(df)
+    paid_count = 0
+    unpaid_count = 0
+    total_collected = 0
+    sem_totals = [0, 0, 0, 0]
 
+    def safe_fee(x):
+        try:
+            val = str(x).replace(',', '').strip()
+            if val in ['', 'nan', 'None']:
+                return 0.0
+            return float(val)
+        except:
+            return 0.0
+
+    for _, row in df.iterrows():
+        sem_fees = []
+        for i, sem in enumerate(range(1, 5)):
+            fee = safe_fee(row.get(f"Sem {sem} Fee", 0))
+            sem_fees.append(fee)
+            sem_totals[i] += fee
+            total_collected += fee
+
+        if any(f > 0 for f in sem_fees):
+            paid_count += 1
+        else:
+            unpaid_count += 1
+
+    course_counts = {}
+    if 'Course Name' in df.columns:
+        course_counts = df['Course Name'].value_counts().to_dict()
+
+    return render_template('main.html',
+        total_students=total_students,
+        paid_count=paid_count,
+        unpaid_count=unpaid_count,
+        total_collected=round(total_collected, 2),
+        sem_totals=[round(s, 2) for s in sem_totals],
+        course_labels=list(course_counts.keys()),
+        course_data=list(course_counts.values())
+    )
 @app.route('/student-entry')
 def student_entry():
     return render_template('entry.html')
@@ -39,6 +80,9 @@ def semester_data():
 @app.route('/send-fee-alert')
 def fee_alert():
     return render_template('fee_alert.html')
+#//////////////////////////////////////////////////////dashboard/////////////////////////////////
+
+
 
 
 #////////////////////////////////////// Save Student Data in Doc section Starts \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
@@ -86,7 +130,7 @@ def save_data():
             "Date of Admission": admission_date
         }])
         if os.path.exists(FILE_PATH):
-            existing_df = pd.read_excel(FILE_PATH)
+            existing_df = read_data()
             df = pd.concat([existing_df, new_row], ignore_index=True)
         else:
             df = new_row
@@ -94,7 +138,7 @@ def save_data():
         df = df[columns]
 
         try:
-            df.to_excel(FILE_PATH, index=False)
+            save_excel(df)
             return jsonify({"message": "Data saved successfully!"})
         except Exception as e:
             print(f"Error saving Excel file: {e}")
@@ -116,7 +160,7 @@ def get_details():
         data = request.get_json()
         roll_no = data.get("rollNo")
         
-        df = pd.read_excel(FILE_PATH)
+        df = read_data()
 
         # Find the student row
         student_row = df[df["Roll No"] == roll_no]
@@ -182,7 +226,7 @@ def update_semester_data():
         if not os.path.exists(FILE_PATH):
             return jsonify({"error": "Student file not found."}), 404
 
-        df = pd.read_excel(FILE_PATH)
+        df = read_data()
         df["Roll No"] = pd.to_numeric(df["Roll No"], errors='coerce')
         df = df.dropna(subset=["Roll No"])
         df["Roll No"] = df["Roll No"].astype(int)
@@ -196,7 +240,7 @@ def update_semester_data():
         result_col = f"Sem {semester} Result"
         df.loc[match, fee_col] = fee
         df.loc[match, result_col] = result
-        df.to_excel(FILE_PATH, index=False)
+        save_excel(df)
 
         return jsonify({"message": f"Semester {semester} data updated successfully!"})
 
@@ -215,10 +259,10 @@ def safe_get(row, column_name):
 @app.route('/', methods=['POST'])
 def getvalue():
     name = request.form['name']  # Get the field from form
-    file_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'studentdata.xlsx')
-
+    df = read_data()
+    
     try:
-        df = pd.read_excel(file_path)
+        df = read_data()
 
         match = (
             (df['Roll No'].astype(str).str.strip() == str(name).strip()) |
@@ -296,13 +340,39 @@ MAX_RETRIES = 3
 failed_numbers = {}
 pending_numbers = []
 
-# Function to send WhatsApp message using pywhatkit
+# SMS sending function
+def send_sms(number, message):
+    try:
+        api_key = os.getenv("FAST2SMS_API_KEY")
+        url = "https://www.fast2sms.com/dev/bulkV2"
+        payload = {
+            "route": "q",
+            "message": message,
+            "language": "english",
+            "flash": 0,
+            "numbers": number
+        }
+        headers = {
+            "authorization": api_key
+        }
+        response = requests.post(url, json=payload, headers=headers)
+        result = response.json()
+        print(f"SMS API Response: {result}")
+        if result.get("return") == True:
+            return True
+        else:
+            return False
+    except Exception as e:
+        print(f"SMS error: {e}")
+        return False
+
+
 @app.route('/send-fee-alert', methods=['POST'])
 def send_fee_alert():
-    pending_numbers = []  
+    pending_numbers = []
     semester = request.form.get('semester')
     fee_amount = request.form.get('fee')
-    due_date=request.form.get('due_date')
+    due_date = request.form.get('due_date')
 
     try:
         semester = int(semester.strip())
@@ -311,12 +381,12 @@ def send_fee_alert():
         return "Invalid semester or fee amount.", 400
 
     if semester < 1 or semester > 4:
-        return "Invalid semester. Please enter a semester between 1 and 3.", 400
+        return "Invalid semester. Please enter a semester between 1 and 4.", 400
 
     if not os.path.exists(FILE_PATH):
         return "Student data file not found.", 404
 
-    df = pd.read_excel(FILE_PATH)
+    df = read_data()
 
     fee_column = f"Sem {semester} Fee"
 
@@ -325,55 +395,44 @@ def send_fee_alert():
 
     for index, row in df.iterrows():
         paid_fee = row.get(fee_column)
-        std_name=row.get("Full Name")
+        std_name = row.get("Full Name")
         phone = str(row.get("Phone"))
 
         if pd.isna(paid_fee) or str(paid_fee).strip() == "":
-                paid_fee = 0.0
+            paid_fee = 0.0
 
         if pd.notna(paid_fee) and pd.notna(phone):
             try:
                 paid_fee = float(str(paid_fee).replace(',', '').strip())
                 if paid_fee < fee_amount:
                     balance_due = fee_amount - paid_fee
-                    pending_numbers.append((phone, paid_fee, balance_due,std_name))  
+                    pending_numbers.append((phone, paid_fee, balance_due, std_name))
             except ValueError:
                 continue
-   
-    time.sleep(6)  
-    
+
     alert_count = 0
     while pending_numbers:
-        
         next_pending = []
-        for number, paid_fee, balance_due, std_name in pending_numbers:           
-            message = f"Hello! Dear {std_name} This is an important fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. " \
-                      f"You have paid ₹{paid_fee}/- of SEMESTER-{semester} fee and your due balance is ₹{balance_due}/-. Please make the payment before due date {due_date}. " \
-                      f"This is an automated message, please do not reply."
+        for number, paid_fee, balance_due, std_name in pending_numbers:
+            message = (
+                f"Hello! Dear {std_name}, "
+                f"This is a fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. "
+                f"You have paid Rs.{paid_fee} of SEMESTER-{semester} fee. "
+                f"Your due balance is Rs.{balance_due}. "
+                f"Please make the payment before {due_date}. "
+                f"This is an automated message, please do not reply."
+            )
 
-            success = send_whatsapp_message(number, message)
+            success = send_sms(number, message)
             if not success:
                 failed_numbers[number] = failed_numbers.get(number, 0) + 1
                 if failed_numbers[number] < MAX_RETRIES:
-                    next_pending.append((number, paid_fee, balance_due))
-                else:
-                    pass
+                    next_pending.append((number, paid_fee, balance_due, std_name))
             else:
                 alert_count += 1
         pending_numbers = next_pending
 
     return f"Alert sent to {alert_count} students, {len(failed_numbers)} failed after retries."
-
-# Send message function
-def send_whatsapp_message(number, message):
-    try:
-        
-        kit.sendwhatmsg_instantly(f"+{number}", message, wait_time=15, tab_close=True)
-        time.sleep(3)
-        return True
-    
-    except Exception as e:
-        return False
 
 #////////////////////////////////////////////// fee Alert section Ends \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
