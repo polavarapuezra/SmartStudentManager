@@ -1,4 +1,4 @@
-# SmartStudent Manager
+# SmartStudent Manager v3.0
 
 A desktop application built for institute front-office staff to manage student records and automate fee reminders.
 
