@@ -162,6 +162,8 @@
       <a href="/student-search">Student Search</a>
       <a href="/update-sem-data">Sem Data</a>
       <a href="/send-fee-alert">Fee Alert</a>
+      <a onclick="downloadAll()">Download All Students</a>
+      <a href="/logout" class="navbar-a" style="color:#ef5350;">🚪 Logout</a>
     </div>
     <div style="width: 60px;"></div>
   </div>
@@ -287,6 +289,10 @@
         }
       }
     });
+
+    function downloadAll() {
+    window.open("http://127.0.0.1:5000/download-all");
+    }
   </script>
 
 </body>

@@ -64,6 +64,8 @@
         <div class="align">
             <button onclick="refreshPreviousPage()" class="serbutton">Search Again</button>
             <a href="/" class="serbutton">🏠 HOME</a>
+            <button class="serbutton" color-green onclick="openDownload('{{ roll }}')">Download PDF</button>
+
         </div>
         </div>
         <span class="watermark"> Developed By <br> Ezra Polavarapu </span>
@@ -82,6 +84,9 @@
             function refreshPreviousPage() {
                 sessionStorage.setItem('refreshFlag', 'true');
                 history.back();  // Go back to previous page
+            }
+            function openDownload(roll) {
+                window.open("http://127.0.0.1:5000/download-student/" + roll);
             }
         </script>
     </div>

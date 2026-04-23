@@ -1,70 +1,187 @@
 import os
-from flask import Flask, request,jsonify,render_template
-import pandas as pd
-import webview
-import requests
+import io
+import time
+import json
+import random
+import smtplib
+import threading
+
+from flask import Flask, request, jsonify, render_template, redirect, session, make_response
+from werkzeug.security import generate_password_hash, check_password_hash
 from dotenv import load_dotenv
+import pandas as pd
+import requests
+import webview
+
+from email.mime.text import MIMEText
+from email.mime.multipart import MIMEMultipart
+from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, Table, TableStyle
+from reportlab.lib.styles import getSampleStyleSheet
+from reportlab.lib import colors
+
+from data_access import (read_data, save_data as save_excel, FILE_PATH,
+                         init_db, insert_student, update_fee,
+                         remove_student as db_remove, search_student,
+                         get_pending_students, get_dashboard_stats)
+
 load_dotenv()
-import sys
-
-from data_access import read_data, save_data as save_excel, FILE_PATH
-
-if getattr(sys, 'frozen', False):
-    app_path = sys._MEIPASS  # For bundled app
-else:
-    app_path = os.path.dirname(__file__)  # For development environment
-
-new_file_path = os.path.join(app_path, 'studentdata.xlsx')
-
 
 app = Flask(__name__, template_folder='template')
-window=webview.create_window('Noble Institute of Science and Technology (NIST)',app,width=1920, height=1080,resizable=True,fullscreen=False)
+app.secret_key = os.getenv("SECRET_KEY", "nist2024")
+
+init_db()
+
+window = webview.create_window(
+    'Noble Institute of Science and Technology (NIST)',
+    app, width=1920, height=1080, resizable=True, fullscreen=False
+)
+
+ADMIN_FILE = "admin.json"
+
+# ---- admin helpers ----------------------------------------------------------------------------------------------------------------------
+
+def load_admin():
+    if not os.path.exists(ADMIN_FILE):
+        return {}
+    with open(ADMIN_FILE, "r") as f:
+        return json.load(f)
+
+def save_admin(data):
+    with open(ADMIN_FILE, "w") as f:
+        json.dump(data, f)
+
+def safe_get(row, col):
+    return row[col] if col in row and pd.notnull(row[col]) else ""
+
+def safe_fee(x):
+    try:
+        val = str(x).replace(',', '').strip()
+        return 0.0 if val in ['', 'nan', 'None'] else float(val)
+    except:
+        return 0.0
+
+# ---- email OTP --------------------------------------------------------------------------------------------------------------
+
+def send_otp_email(to_email, otp):
+    try:
+        sender = os.getenv("SENDER_EMAIL")
+        password = os.getenv("SENDER_PASSWORD")
+
+        msg = MIMEMultipart()
+        msg['From'] = sender
+        msg['To'] = to_email
+        msg['Subject'] = "SmartStudent Manager - OTP Verification"
+        msg.attach(MIMEText(f"""
+Dear Admin,
+
+Your login OTP is: {otp}
+
+Valid for 5 minutes. Do not share this with anyone.
+
+- NIST
+        """, 'plain'))
+
+        server = smtplib.SMTP('smtp.gmail.com', 587)
+        server.starttls()
+        server.login(sender, password)
+        server.sendmail(sender, to_email, msg.as_string())
+        server.quit()
+        return True
+    except Exception as e:
+        print(f"Email error: {e}")
+        return False
+
+# ---- login --------------------------------------------------------------------------------------------------------------
+
+@app.route('/login', methods=['GET'])
+def login_page():
+    return render_template('login.html')
+
+@app.route('/register', methods=['POST'])
+def register():
+    try:
+        data = request.get_json()
+        email = data.get("email").strip()
+        password = data.get("password").strip()
+
+        if not email or not password:
+            return jsonify({"success": False, "error": "All fields required"}), 400
+
+        if load_admin():
+            return jsonify({"success": False, "error": "Account already exists. Contact admin."}), 400
+
+        save_admin({"email": email, "password": generate_password_hash(password)})
+        return jsonify({"success": True, "message": "Account created. Please login."})
+    except Exception as e:
+        return jsonify({"success": False, "error": str(e)}), 500
+
+@app.route('/login', methods=['POST'])
+def login():
+    try:
+        data = request.get_json()
+        email = data.get("email").strip()
+        password = data.get("password").strip()
+
+        admin = load_admin()
+        if not admin:
+            return jsonify({"success": False, "error": "No account registered yet"}), 400
+
+        if email != admin["email"] or not check_password_hash(admin["password"], password):
+            return jsonify({"success": False, "error": "Invalid email or password"}), 401
+        otp = str(random.randint(100000, 999999))
+        session['otp'] = otp
+        session['otp_email'] = email
+
+        if send_otp_email(email, otp):
+            return jsonify({"success": True, "message": "OTP sent to your email"})
+        return jsonify({"success": False, "error": "Failed to send OTP"}), 500
+    except Exception as e:
+        return jsonify({"success": False, "error": str(e)}), 500
+
+@app.route('/verify-otp', methods=['POST'])
+def verify_otp():
+    try:
+        data = request.get_json()
+        entered_otp = data.get("otp").strip()
+
+        if 'otp' not in session:
+            return jsonify({"success": False, "error": "OTP expired. Please login again"}), 400
+
+        if entered_otp != session['otp']:
+            return jsonify({"success": False, "error": "Invalid OTP"}), 401
+
+        session.pop('otp', None)
+        session.pop('otp_email', None)
+        session['logged_in'] = True
+        return jsonify({"success": True, "message": "Login successful"})
+    except Exception as e:
+        return jsonify({"success": False, "error": str(e)}), 500
+
+@app.route('/logout')
+def logout():
+    session.clear()
+    return redirect('/login')
+
+# ---- dashboard -------------------------------------------------------------------------------------------------
 
 @app.route('/')
 def index():
-    df = read_data()
+    if not session.get('logged_in'):
+        return redirect('/login')
 
-    total_students = len(df)
-    paid_count = 0
-    unpaid_count = 0
-    total_collected = 0
-    sem_totals = [0, 0, 0, 0]
-
-    def safe_fee(x):
-        try:
-            val = str(x).replace(',', '').strip()
-            if val in ['', 'nan', 'None']:
-                return 0.0
-            return float(val)
-        except:
-            return 0.0
-
-    for _, row in df.iterrows():
-        sem_fees = []
-        for i, sem in enumerate(range(1, 5)):
-            fee = safe_fee(row.get(f"Sem {sem} Fee", 0))
-            sem_fees.append(fee)
-            sem_totals[i] += fee
-            total_collected += fee
-
-        if any(f > 0 for f in sem_fees):
-            paid_count += 1
-        else:
-            unpaid_count += 1
-
-    course_counts = {}
-    if 'Course Name' in df.columns:
-        course_counts = df['Course Name'].value_counts().to_dict()
-
+    stats = get_dashboard_stats()
     return render_template('main.html',
-        total_students=total_students,
-        paid_count=paid_count,
-        unpaid_count=unpaid_count,
-        total_collected=round(total_collected, 2),
-        sem_totals=[round(s, 2) for s in sem_totals],
-        course_labels=list(course_counts.keys()),
-        course_data=list(course_counts.values())
+        total_students=stats["total"],
+        paid_count=stats["paid"],
+        unpaid_count=stats["unpaid"],
+        total_collected=stats["collected"],
+        sem_totals=stats["sem_totals"],
+        course_labels=stats["course_labels"],
+        course_data=stats["course_data"]
     )
+
+# ---- page routes ------------------------------------------------------------------------------------------------------------
+
 @app.route('/student-entry')
 def student_entry():
     return render_template('entry.html')
@@ -80,187 +197,49 @@ def semester_data():
 @app.route('/send-fee-alert')
 def fee_alert():
     return render_template('fee_alert.html')
-#//////////////////////////////////////////////////////dashboard/////////////////////////////////
 
-
-
-
-#////////////////////////////////////// Save Student Data in Doc section Starts \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+# ---- student entry -------------------------------------------------------------------------------
 
 @app.route('/save-data', methods=['POST'])
-def save_data():
+def save_student_data():
     try:
-        data = request.get_json()
-        roll_no = data.get("rollNo")
-        admission_no = data.get("admissionNo")
-        full_name = data.get("fullName")
-        gender = data.get("gender")
-        father_name = data.get("fatherName")
-        mother_name = data.get("motherName")
-        address = data.get("address")
-        email = data.get("email")
-        phone = data.get("phone")
-        aadhaar_no = data.get("aadhaarNo")
-        dob = data.get("dob")
-        course_name = data.get("courseName")
-        admission_date = data.get("admissionDate")
+        data = request.get_json(force=True)
+        print("Received data:", data)
 
-        if not all([roll_no, admission_no, full_name, gender, father_name, mother_name,
-                    address, email, phone, aadhaar_no, dob, course_name, admission_date]):
+        fields = ["rollNo", "admissionNo", "fullName", "gender", "fatherName",
+                  "motherName", "address", "email", "phone", "aadhaarNo",
+                  "dob", "courseName", "admissionDate"]
+
+        if not all(data.get(f) for f in fields):
             return jsonify({"error": "All fields are required"}), 400
 
-        columns = [
-            "Roll No", "Admission No", "Full Name", "Gender",
-            "Father Name", "Mother Name", "Address", "Email", "Phone",
-            "Aadhaar No", "Date of Birth", "Course Name", "Date of Admission"
-        ]
-        new_row = pd.DataFrame([{
-            "Roll No": roll_no,
-            "Admission No": admission_no,
-            "Full Name": full_name,
-            "Gender": gender,
-            "Father Name": father_name,
-            "Mother Name": mother_name,
-            "Address": address,
-            "Email": email,
-            "Phone": phone,
-            "Aadhaar No": aadhaar_no,
-            "Date of Birth": dob,
-            "Course Name": course_name,
-            "Date of Admission": admission_date
-        }])
-        if os.path.exists(FILE_PATH):
-            existing_df = read_data()
-            df = pd.concat([existing_df, new_row], ignore_index=True)
-        else:
-            df = new_row
+        new_row = {
+            "Roll No": data["rollNo"],
+            "Admission No": data["admissionNo"],
+            "Full Name": data["fullName"],
+            "Gender": data["gender"],
+            "Father Name": data["fatherName"],
+            "Mother Name": data["motherName"],
+            "Address": data["address"],
+            "Email": data["email"],
+            "Phone": data["phone"],
+            "Aadhaar No": data["aadhaarNo"],
+            "Date of Birth": data["dob"],
+            "Course Name": data["courseName"],
+            "Date of Admission": data["admissionDate"]
+        }
 
-        df = df[columns]
-
-        try:
-            save_excel(df)
-            return jsonify({"message": "Data saved successfully!"})
-        except Exception as e:
-            print(f"Error saving Excel file: {e}")
-            return jsonify({"error": f"Error saving data. Please try again. {str(e)}"}), 500
-
+        insert_student(new_row)
+        return jsonify({"message": "Data saved successfully!"})
     except Exception as e:
-        print(f"Error in save_data: {e}")
-        return jsonify({"error": f"Error in saving data. {str(e)}"}), 500
-    
-#////////////////////////////////////// Save Student Data in Doc section Ends \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+        print(f"Error in save_student_data: {e}")
+        return jsonify({"error": f"Error saving data. {str(e)}"}), 500
 
-
-
-#////////////////////////////////////// get Student form Doc section Starts \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-
-@app.route('/get-details', methods=['POST'])
-def get_details():
-    try:
-        data = request.get_json()
-        roll_no = data.get("rollNo")
-        
-        df = read_data()
-
-        # Find the student row
-        student_row = df[df["Roll No"] == roll_no]
-
-        if not student_row.empty:
-            student_data = student_row.iloc[0]
-
-            return render_template('student.html',
-                n = "Student Found!",
-                na = student_data["Full Name"],
-                roll = student_data["Roll No"],
-                admission_no = student_data["Admission No"],
-                gender = student_data["Gender"],
-                father_name = student_data["Father Name"],
-                mother_name = student_data["Mother Name"],
-                address = student_data["Address"],
-                email = student_data["Email"],
-                phone = student_data["Phone"],
-                aadhaar_no = student_data["Aadhaar No"],
-                dob = student_data["Date of Birth"],
-                course_name = student_data["Course Name"],
-                admission_date = student_data["Date of Admission"],
-                sem1_fee = student_data.get("Sem 1 Fee", ""),
-                sem1_result = student_data.get("Sem 1 Result", ""),
-                sem2_fee = student_data.get("Sem 2 Fee", ""),
-                sem2_result = student_data.get("Sem 2 Result", ""),
-                sem3_fee = student_data.get("Sem 3 Fee", ""),
-                sem3_result = student_data.get("Sem 3 Result", ""),
-                sem4_fee = student_data.get("Sem 4 Fee", ""),
-                sem4_result = student_data.get("Sem 4 Result", "")
-            )
-        else:
-            return "Student Not Found", 404
-    except Exception as e:
-        return str(e), 500
-    
-#////////////////////////////////////// get Student Details Doc section Ends \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-
-
-
-#////////////////////////////////////// Update semister data section Starts \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-
-@app.route('/update-sem-data', methods=['POST'])
-def update_semester_data():
-    try:
-        data = request.get_json()
-        roll_no_raw = data.get("rollNo")
-
-        if isinstance(roll_no_raw, float):
-            roll_no = int(roll_no_raw)
-        elif isinstance(roll_no_raw, str):
-            roll_no = int(roll_no_raw.strip())
-        else:
-            roll_no = int(roll_no_raw)
-
-        semester = data.get("semester")
-        fee = data.get("fee")
-        result = data.get("result")
-
-        if not all([roll_no, semester, fee, result]):
-            return jsonify({"error": "All fields are required"}), 400
-
-        if not os.path.exists(FILE_PATH):
-            return jsonify({"error": "Student file not found."}), 404
-
-        df = read_data()
-        df["Roll No"] = pd.to_numeric(df["Roll No"], errors='coerce')
-        df = df.dropna(subset=["Roll No"])
-        df["Roll No"] = df["Roll No"].astype(int)
-
-        match = df["Roll No"] == roll_no
-
-        if not match.any():
-            return jsonify({"error": "Roll No not found."}), 404
-
-        fee_col = f"Sem {semester} Fee"
-        result_col = f"Sem {semester} Result"
-        df.loc[match, fee_col] = fee
-        df.loc[match, result_col] = result
-        save_excel(df)
-
-        return jsonify({"message": f"Semester {semester} data updated successfully!"})
-
-    except Exception as e:
-        return jsonify({"error": str(e)}), 500    
-
-#////////////////////////////////////// Update semister data section Ends \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-
-
-
-#/////////////////////// getting value from form and posting values to the pass section strats \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-        
-def safe_get(row, column_name):
-    return row[column_name] if column_name in row and pd.notnull(row[column_name]) else "0"
+# ---- student search ------------------------------------------------------------------------------------------
 
 @app.route('/', methods=['POST'])
 def getvalue():
-    name = request.form['name']  # Get the field from form
-    df = read_data()
-    
+    name = request.form['name']
     try:
         df = read_data()
 
@@ -272,172 +251,231 @@ def getvalue():
 
         student_details = df[match]
 
-        if not student_details.empty:
-            student = student_details.iloc[0]              
-
-            # get all fields from the form
-            student_name = safe_get(student, "Full Name")
-            student_roll_no = safe_get(student, "Roll No")
-            student_admission_no = safe_get(student, "Admission No")
-            student_gender = safe_get(student, "Gender")
-            student_father_name = safe_get(student, "Father Name")
-            student_mother_name = safe_get(student, "Mother Name")
-            student_address = safe_get(student, "Address")
-            student_email = safe_get(student, "Email")
-            student_phone = safe_get(student, "Phone")
-            student_aadhaar_no = safe_get(student, "Aadhaar No") # 🆕 added
-            student_dob = safe_get(student, "Date of Birth")     # 🆕 added
-            student_course_name = safe_get(student, "Course Name")  # 🆕 added
-            student_admission_date = safe_get(student, "Date of Admission")  # 🆕 added
-
-            student_sem1_fee = safe_get(student, "Sem 1 Fee")
-            student_sem1_result = safe_get(student, "Sem 1 Result")
-            student_sem2_fee = safe_get(student, "Sem 2 Fee")
-            student_sem2_result = safe_get(student, "Sem 2 Result")
-            student_sem3_fee = safe_get(student, "Sem 3 Fee")
-            student_sem3_result = safe_get(student, "Sem 3 Result")
-            student_sem4_fee = safe_get(student, "Sem 4 Fee")
-            student_sem4_result = safe_get(student, "Sem 4 Result")
-
-            # Pass everything to the template
-            return render_template('pass.html', 
-                                   n="Student Found", 
-                                   na=student_name, 
-                                   roll=student_roll_no,
-                                   admission_no=student_admission_no,
-                                   gender=student_gender, 
-                                   father_name=student_father_name, 
-                                   mother_name=student_mother_name, 
-                                   address=student_address, 
-                                   email=student_email,
-                                   phone=student_phone,
-                                   aadhaar_no=student_aadhaar_no,   
-                                   dob=student_dob,               
-                                   course_name=student_course_name,  
-                                   admission_date=student_admission_date,
-                                   sem1_fee=student_sem1_fee,
-                                   sem1_result=student_sem1_result,
-                                   sem2_fee=student_sem2_fee,
-                                   sem2_result=student_sem2_result,
-                                   sem3_fee=student_sem3_fee,
-                                   sem3_result=student_sem3_result,
-                                   sem4_fee=student_sem4_fee,
-                                   sem4_result=student_sem4_result)
-        
-        else:
+        if student_details.empty:
             return render_template('passno.html', z="Student not found")
 
+        student = student_details.iloc[0]
+        return render_template('pass.html',
+            n="Student Found",
+            na=safe_get(student, "Full Name"),
+            roll=safe_get(student, "Roll No"),
+            admission_no=safe_get(student, "Admission No"),
+            gender=safe_get(student, "Gender"),
+            father_name=safe_get(student, "Father Name"),
+            mother_name=safe_get(student, "Mother Name"),
+            address=safe_get(student, "Address"),
+            email=safe_get(student, "Email"),
+            phone=safe_get(student, "Phone"),
+            aadhaar_no=safe_get(student, "Aadhaar No"),
+            dob=safe_get(student, "Date of Birth"),
+            course_name=safe_get(student, "Course Name"),
+            admission_date=safe_get(student, "Date of Admission"),
+            sem1_fee=safe_get(student, "Sem 1 Fee"),
+            sem1_result=safe_get(student, "Sem 1 Result"),
+            sem2_fee=safe_get(student, "Sem 2 Fee"),
+            sem2_result=safe_get(student, "Sem 2 Result"),
+            sem3_fee=safe_get(student, "Sem 3 Fee"),
+            sem3_result=safe_get(student, "Sem 3 Result"),
+            sem4_fee=safe_get(student, "Sem 4 Fee"),
+            sem4_result=safe_get(student, "Sem 4 Result")
+        )
     except Exception as e:
         return render_template('passno.html', n="Error Occurred", z=name)
-    
-#/////////////////////// getting value from form and posting values to the pass section Ends \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
+@app.route('/get-details', methods=['POST'])
+def get_details():
+    try:
+        data = request.get_json()
+        roll_no = str(data.get("rollNo")).strip()
 
+        df = read_data()
+        student_row = df[df["Roll No"].astype(str).str.strip() == roll_no]
 
-#////////////////////////////////////////////// fee Alert section strats \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-    
-MAX_RETRIES = 3
-failed_numbers = {}
-pending_numbers = []
+        if student_row.empty:
+            return "Student Not Found", 404
 
-# SMS sending function
+        s = student_row.iloc[0]
+        return render_template('student.html',
+            n="Student Found!",
+            na=s["Full Name"], roll=s["Roll No"],
+            admission_no=s["Admission No"], gender=s["Gender"],
+            father_name=s["Father Name"], mother_name=s["Mother Name"],
+            address=s["Address"], email=s["Email"], phone=s["Phone"],
+            aadhaar_no=s["Aadhaar No"], dob=s["Date of Birth"],
+            course_name=s["Course Name"], admission_date=s["Date of Admission"],
+            sem1_fee=s.get("Sem 1 Fee", ""), sem1_result=s.get("Sem 1 Result", ""),
+            sem2_fee=s.get("Sem 2 Fee", ""), sem2_result=s.get("Sem 2 Result", ""),
+            sem3_fee=s.get("Sem 3 Fee", ""), sem3_result=s.get("Sem 3 Result", ""),
+            sem4_fee=s.get("Sem 4 Fee", ""), sem4_result=s.get("Sem 4 Result", "")
+        )
+    except Exception as e:
+        return str(e), 500
+
+@app.route('/remove-student', methods=['POST'])
+def remove_student():
+    try:
+        data = request.get_json()
+        roll_no = str(data.get("rollNo")).strip()
+
+        if not roll_no:
+            return jsonify({"success": False, "error": "Roll No is required"}), 400
+
+        db_remove(roll_no)
+        return jsonify({"success": True, "message": f"Student {roll_no} removed successfully"})
+    except Exception as e:
+        return jsonify({"success": False, "error": str(e)}), 500
+
+# ---- semester update -------------------------------------------------------------------------------------------------
+
+@app.route('/update-sem-data', methods=['POST'])
+def update_semester_data():
+    try:
+        data = request.get_json(force=True)
+        print("Sem update received:", data)
+
+        roll_no = str(data.get("rollNo", "")).strip()
+        semester = data.get("semester", "")
+        fee = data.get("fee", "")
+        result = data.get("result", "")
+
+        if not all([roll_no, semester, fee, result]):
+            return jsonify({"error": "All fields are required"}), 400
+
+        semester = int(semester)
+        fee = float(fee)
+
+        if semester < 1 or semester > 4:
+            return jsonify({"error": "Semester must be between 1 and 4"}), 400
+
+        success = update_fee(roll_no, semester, fee, result)
+        if not success:
+            return jsonify({"error": "Roll No not found"}), 404
+
+        return jsonify({"message": f"Semester {semester} data updated successfully!"})
+    except ValueError as e:
+        return jsonify({"error": f"Invalid number format: {str(e)}"}), 400
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+# ---- download -------------------------------------------------------------------------------------------------
+
+@app.route('/download-student/<roll_no>')
+def download_student(roll_no):
+    df = read_data()
+    student = df[df["Roll No"].astype(str) == str(roll_no)]
+
+    if student.empty:
+        return "Student not found", 404
+
+    student = student.iloc[0]
+    buffer = io.BytesIO()
+    doc = SimpleDocTemplate(buffer)
+    styles = getSampleStyleSheet()
+
+    content = [Paragraph("Student Details", styles['Title']), Spacer(1, 10)]
+    for col in df.columns:
+        content.append(Paragraph(f"<b>{col}:</b> {student.get(col, '')}", styles['Normal']))
+        content.append(Spacer(1, 5))
+
+    doc.build(content)
+    buffer.seek(0)
+
+    response = make_response(buffer.getvalue())
+    response.headers['Content-Type'] = 'application/pdf'
+    response.headers['Content-Disposition'] = f'attachment; filename={roll_no}.pdf'
+    return response
+
+@app.route('/download-all')
+def download_all_students():
+    df = read_data().fillna("")
+    buffer = io.BytesIO()
+    doc = SimpleDocTemplate(buffer)
+    styles = getSampleStyleSheet()
+
+    elements = [Paragraph("All Students Data", styles['Title']), Spacer(1, 10)]
+
+    columns = ["Roll No", "Full Name", "Course Name", "Phone",
+               "Sem 1 Fee", "Sem 2 Fee", "Sem 3 Fee", "Sem 4 Fee"]
+    columns = [col for col in columns if col in df.columns]
+
+    table_data = [columns]
+    for _, row in df.iterrows():
+        table_data.append([str(row.get(col, "")) for col in columns])
+
+    table = Table(table_data, repeatRows=1)
+    table.setStyle(TableStyle([
+        ('BACKGROUND', (0, 0), (-1, 0), colors.grey),
+        ('TEXTCOLOR', (0, 0), (-1, 0), colors.white),
+        ('GRID', (0, 0), (-1, -1), 0.5, colors.black),
+        ('FONTNAME', (0, 0), (-1, 0), 'Helvetica-Bold'),
+        ('ALIGN', (0, 0), (-1, -1), 'CENTER'),
+    ]))
+
+    elements.append(table)
+    doc.build(elements)
+    buffer.seek(0)
+
+    response = make_response(buffer.getvalue())
+    response.headers['Content-Type'] = 'application/pdf'
+    response.headers['Content-Disposition'] = 'attachment; filename=all_students.pdf'
+    return response
+
+# ---- fee alert --------------------------------------------------------------------------------------
+
 def send_sms(number, message):
     try:
-        api_key = os.getenv("FAST2SMS_API_KEY")
-        url = "https://www.fast2sms.com/dev/bulkV2"
         payload = {
-            "route": "q",
-            "message": message,
-            "language": "english",
-            "flash": 0,
-            "numbers": number
+            "apiKey": os.getenv("SMS_API_KEY"),
+            "recipients": [str(number)],
+            "message": message
         }
-        headers = {
-            "authorization": api_key
-        }
-        response = requests.post(url, json=payload, headers=headers)
-        result = response.json()
-        print(f"SMS API Response: {result}")
-        if result.get("return") == True:
-            return True
-        else:
-            return False
+        url = "https://bulkblaster-india-sms-lc-290441563653.asia-south1.run.app/send-bulk-sms"
+        response = requests.post(url, json=payload, headers={"Content-Type": "application/json"})
+        print(f"SMS Response: {response.json()}")
+        return response.status_code == 200
     except Exception as e:
         print(f"SMS error: {e}")
         return False
 
-
 @app.route('/send-fee-alert', methods=['POST'])
 def send_fee_alert():
-    pending_numbers = []
-    semester = request.form.get('semester')
-    fee_amount = request.form.get('fee')
-    due_date = request.form.get('due_date')
-
     try:
-        semester = int(semester.strip())
-        fee_amount = float(fee_amount.strip())
+        semester = int(request.form.get('semester').strip())
+        fee_amount = float(request.form.get('fee').strip())
+        due_date = request.form.get('due_date')
     except ValueError:
-        return "Invalid semester or fee amount.", 400
+        return "Invalid input.", 400
 
     if semester < 1 or semester > 4:
-        return "Invalid semester. Please enter a semester between 1 and 4.", 400
+        return "Semester must be between 1 and 4.", 400
 
-    if not os.path.exists(FILE_PATH):
-        return "Student data file not found.", 404
+    pending = get_pending_students(semester, fee_amount)
 
-    df = read_data()
+    if not pending:
+        return "All students have paid. No alerts needed.", 200
 
-    fee_column = f"Sem {semester} Fee"
+    sent = 0
+    failed = 0
+    for s in pending:
+        msg = (
+            f"Dear {s['full_name']}, Sem-{semester} fee due. "
+            f"Paid:Rs.{s['paid']} Balance:Rs.{round(fee_amount - s['paid'], 2)}. "
+            f"Pay before {due_date}. -NIST"
+        )
+        if send_sms(s["phone"], msg):
+            sent += 1
+        else:
+            failed += 1
+        time.sleep(2)
 
-    if fee_column not in df.columns:
-        return f"No data available for Semester {semester}.", 404
+    return f"Alerts sent: {sent}. Failed: {failed}."
+# ---- run ------------------------------------------------------------------------------------------------
 
-    for index, row in df.iterrows():
-        paid_fee = row.get(fee_column)
-        std_name = row.get("Full Name")
-        phone = str(row.get("Phone"))
+def start_flask():
+    app.run(debug=True, use_reloader=False)
 
-        if pd.isna(paid_fee) or str(paid_fee).strip() == "":
-            paid_fee = 0.0
-
-        if pd.notna(paid_fee) and pd.notna(phone):
-            try:
-                paid_fee = float(str(paid_fee).replace(',', '').strip())
-                if paid_fee < fee_amount:
-                    balance_due = fee_amount - paid_fee
-                    pending_numbers.append((phone, paid_fee, balance_due, std_name))
-            except ValueError:
-                continue
-
-    alert_count = 0
-    while pending_numbers:
-        next_pending = []
-        for number, paid_fee, balance_due, std_name in pending_numbers:
-            message = (
-                f"Hello! Dear {std_name}, "
-                f"This is a fee due alert from NOBEL INSTITUTE OF SCIENCE AND TECHNOLOGY. "
-                f"You have paid Rs.{paid_fee} of SEMESTER-{semester} fee. "
-                f"Your due balance is Rs.{balance_due}. "
-                f"Please make the payment before {due_date}. "
-                f"This is an automated message, please do not reply."
-            )
-
-            success = send_sms(number, message)
-            if not success:
-                failed_numbers[number] = failed_numbers.get(number, 0) + 1
-                if failed_numbers[number] < MAX_RETRIES:
-                    next_pending.append((number, paid_fee, balance_due, std_name))
-            else:
-                alert_count += 1
-        pending_numbers = next_pending
-
-    return f"Alert sent to {alert_count} students, {len(failed_numbers)} failed after retries."
-
-#////////////////////////////////////////////// fee Alert section Ends \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-
-
-
-if __name__=='__main__':
+if __name__ == '__main__':
+    t = threading.Thread(target=start_flask)
+    t.daemon = True
+    t.start()
     webview.start()
-    

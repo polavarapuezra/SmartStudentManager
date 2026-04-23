@@ -158,6 +158,7 @@
         const result = await response.json();
         if (response.ok) {
           showPopup(result.message, "success");
+          document.getElementById("dataForm").reset();
         } else {
           showPopup(result.error || "Error occurred", "danger");
         }
